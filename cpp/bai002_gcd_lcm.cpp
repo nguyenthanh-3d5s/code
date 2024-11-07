@@ -7,9 +7,6 @@ int gcd(int &, int &);
 int lcm(int &, int &);
 
 int main() {
-    int a, b; cin >> a >> b;
-
-    cout << gcd(a, b);
 
     return 0;
 }
