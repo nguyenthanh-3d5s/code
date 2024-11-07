@@ -13,7 +13,7 @@ int main() {
     int n = 10;
     vi arr(n);
 
-    fibo(arr)
+    fibo(arr);
     
     return 0;
 }
