@@ -1,8 +1,0 @@
-+ cưỡng chế là hành vi lặp đi lặp lại
-
-+ triệu chứng:
-  + rửa
-  + kiểm tra
-  + đếm
-  + sắp xếp
-  + mùi
