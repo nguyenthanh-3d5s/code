@@ -2,17 +2,22 @@
 #include <cmath>
 using namespace std;
 
-bool isPrime(int n) {
-    if (n <= 1) return false;
-    for (int i = 2; i <= sqrt(n); i++) {
-        if (n % i == 0) return false;
-    }
-    return true;
-}
+bool Prime(int);
 
 int main() {
-    int n;
-    cin >> n;
-    cout << (isPrime(n) ? "YES" : "NO") << endl;
+    int a; cin >> a;
+    cout << (Prime(a) ? "Yes" : "No");
     return 0;
+}
+
+bool Prime(int n) {
+    if(n < 2) return false;
+
+    int _n = sqrt(n) + 1;
+
+    for(int i = 2; i < _n; i++) {
+        if(n % i == 0) return false;
+    }
+
+    return true;
 }
