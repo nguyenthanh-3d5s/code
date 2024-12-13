@@ -10,7 +10,7 @@ int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    cout << (prime(8, 5) ? true : false);
+    cout << (prime(8, 5) ? "true" : "false");
 
     return 0;
 }
