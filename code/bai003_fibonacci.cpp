@@ -30,7 +30,7 @@ void fibo(vi &arr) {
 }
 
 void output(vi &arr) {
-    for(int i : arr) {
+    for(int &i : arr) {
         cout << i << " ";
     }
 }
