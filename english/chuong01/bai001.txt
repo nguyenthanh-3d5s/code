@@ -2,3 +2,4 @@
 # water / wa tờ / nước
 # tea / tia / trà
 # hello / hê lô / xin chào
+# and / en / và
