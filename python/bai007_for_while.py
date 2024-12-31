@@ -13,6 +13,10 @@ def main():
         print(i, end=" ")
     print()
 
+    while n > 0:
+        print(n, end=" ")
+        n -= 1
+
     # break continue
 
 main()
