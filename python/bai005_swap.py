@@ -1,5 +1,5 @@
 def main():
-    a, b = 2, 3
+    a, b = map(int, input().split())
     a, b = b, a
     print(a, b)
 
