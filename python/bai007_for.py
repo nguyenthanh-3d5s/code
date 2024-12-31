@@ -13,4 +13,6 @@ def main():
         print(i, end=" ")
     print()
 
+    # break continue
+
 main()
