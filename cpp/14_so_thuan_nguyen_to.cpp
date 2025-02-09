@@ -2,7 +2,7 @@
 using namespace std;
 
 using ll = long long;
-const int k = 1e7;
+const int k = 1e8;
 
 bool nguyen_to(int);
 bool num_nguyen_to(int);
