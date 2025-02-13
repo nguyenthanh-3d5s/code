@@ -18,7 +18,8 @@ int main() {
     ll a;
     cin >> a;
 
-    cout << luy_thua(a, mod - 2) << endl;
+    ll nghich_dao = luy_thua(a, mod - 2);
+    cout << nghich_dao << endl;
 
     return 0;
 }
