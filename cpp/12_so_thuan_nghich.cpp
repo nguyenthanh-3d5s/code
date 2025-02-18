@@ -6,10 +6,8 @@ using ll = long long;
 bool thuan_nghich(int);
 
 int main() {
-    #ifndef TEST
     freopen("input.txt", "r", stdin);
     freopen("output.txt", "w", stdout);
-    #endif
 
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
