@@ -26,21 +26,29 @@ int main() {
 }
 
 bool nguyen_to(int n) {
-    if(n < 2) return false;
+    if(n < 2) {
+        return false;
+    }
 
     for(int i = 2; i <= sqrt(n); i++) {
-        if(n % i == 0) return false;
+        if(n % i == 0) {
+            return false;
+        }
     }
 
     return true;
 }
 
 bool num_nguyen_to(int n) {
-    if(n < 2) return false;
+    if(n < 2) {
+        return false;
+    }
 
     while(n) {
         int tmp = n % 10;
-        if(tmp == 2 || tmp == 3 || tmp == 5 || tmp == 7) n /= 10;
+        if(tmp == 2 || tmp == 3 || tmp == 5 || tmp == 7) {
+            n /= 10;
+        }
         else return false;
     }
 
