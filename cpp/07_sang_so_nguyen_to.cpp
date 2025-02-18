@@ -15,6 +15,7 @@ int main() {
     cin.tie(nullptr);
 
     fibo();
+    
     cout << arr[n - 1] << endl;
 
     return 0;
