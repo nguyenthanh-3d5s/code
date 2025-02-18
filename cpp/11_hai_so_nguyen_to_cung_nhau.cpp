@@ -6,10 +6,8 @@ using ll = long long;
 int gcd(int, int);
 
 int main() {
-    #ifndef TEST
     freopen("input.txt", "r", stdin);
     freopen("output.txt", "w", stdout);
-    #endif
 
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
