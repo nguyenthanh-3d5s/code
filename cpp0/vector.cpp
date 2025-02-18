@@ -15,10 +15,8 @@ inline bool cmp(int &a, int &b) {return a > b;}
 inline bool cmp_ii(ii &i, ii &j) {return i.a > j.a;}
 
 int main() {
-    #ifndef TEST
     freopen("input.txt", "r", stdin);
     freopen("output.txt", "w", stdout);
-    #endif
 
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
