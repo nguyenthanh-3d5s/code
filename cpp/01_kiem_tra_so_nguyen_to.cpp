@@ -13,17 +13,21 @@ int main() {
     cin.tie(nullptr);
 
     int a; cin >> a;
-
+    
     cout << nguyen_to(a) << endl;
 
     return 0;
 }
 
 bool nguyen_to(int n) {
-    if(n < 2) return false;
+    if(n < 2) {
+        return false;
+    }
 
     for(int i = 2; i <= sqrt(n); i++) {
-        if(n % i == 0) return false;
+        if(n % i == 0) {
+            return false;
+        }
     }
 
     return true;
