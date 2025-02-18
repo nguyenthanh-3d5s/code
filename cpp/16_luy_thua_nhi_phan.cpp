@@ -22,6 +22,7 @@ int main() {
 }
 
 ll luy_thua(ll a, ll b) {
+    a %= mod;
     ll res = 1;
 
     while(b) {
