@@ -18,7 +18,9 @@ int main() {
     int cnt = 0;
 
     for(int i = 0; i < k; i++) {
-        if(num_nguyen_to(i) && nguyen_to(i) && sum_nguyen_to(i)) cnt++;
+        if(num_nguyen_to(i) && nguyen_to(i) && sum_nguyen_to(i)) {
+            cnt++;
+        }
     }
     cout << cnt << endl;
 
