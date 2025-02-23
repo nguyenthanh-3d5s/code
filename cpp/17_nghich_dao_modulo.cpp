@@ -13,10 +13,10 @@ int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    ll n;
-    cin >> n;
+    ll a;
+    cin >> a;
 
-    ll nghich_dao = luy_thua(n, mod - 2);
+    ll nghich_dao = luy_thua(a, mod - 2);
     cout << nghich_dao << endl;
 
     return 0;
