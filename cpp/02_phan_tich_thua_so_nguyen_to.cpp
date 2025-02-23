@@ -12,9 +12,9 @@ int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    int a; cin >> a;
+    int n; cin >> n;
     
-    thua_so(a);
+    thua_so(n);
 
     return 0;
 }
