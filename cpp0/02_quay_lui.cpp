@@ -3,9 +3,7 @@ using namespace std;
 
 using ll = long long;
 
-using vi = vector<int>;
-#define pb push_back
-#define pp pop_back
+void quay_lui(int);
 
 int main() {
     freopen("input.txt", "r", stdin);
@@ -15,16 +13,15 @@ int main() {
     cin.tie(nullptr);
 
     int n; cin >> n;
-    vi arr;
 
-    for(int i = n; i > 0; i--) {
-        arr.pb(i);
-    }
-
-    while(!arr.empty()) {
-        cout << arr.back() << " ";
-        arr.pp();
-    }
+    quay_lui(n);
 
     return 0;
+}
+
+void quay_lui(int n) {
+    if(n == 0) return;
+
+    quay_lui(n - 1);
+    cout << n << " ";
 }
