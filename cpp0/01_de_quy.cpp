@@ -3,9 +3,7 @@ using namespace std;
 
 using ll = long long;
 
-using vi = vector<int>;
-#define pb push_back
-#define pp pop_back
+void de_quy(int);
 
 int main() {
     freopen("input.txt", "r", stdin);
@@ -15,12 +13,15 @@ int main() {
     cin.tie(nullptr);
 
     int n; cin >> n;
-    vi arr;
 
-    for(int i = n; i > 0; i--) {
-        cout << i << " ";
-        arr.pb(i);
-    }
+    de_quy(n);
 
     return 0;
+}
+
+void de_quy(int n) {
+    if(n == 0) return;
+
+    cout << n << " ";
+    de_quy(n - 1);
 }
