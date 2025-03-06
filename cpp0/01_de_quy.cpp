@@ -5,7 +5,7 @@ using ll = long long;
 
 using vi = vector<int>;
 #define pb push_back
-#define sz(x) (int) (x).size()
+#define pp pop_back
 
 int main() {
     freopen("input.txt", "r", stdin);
@@ -15,14 +15,12 @@ int main() {
     cin.tie(nullptr);
 
     int n; cin >> n;
-    int sum = 0;
     vi arr;
 
     for(int i = n; i > 0; i--) {
+        cout << i << " ";
         arr.pb(i);
-        sum += i;
     }
 
-    cout << sum;
     return 0;
 }
