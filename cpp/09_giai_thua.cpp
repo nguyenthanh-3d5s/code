@@ -6,7 +6,6 @@ const int n = 1e3;
 
 using vi = vector<int>;
 #define pb push_back
-#define all(x) (x).begin(), (x).end()
 #define sz(x) (int) (x).size()
 
 void big_int(vi &, int);
