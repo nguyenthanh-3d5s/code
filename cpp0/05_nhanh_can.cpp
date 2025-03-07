@@ -2,9 +2,8 @@
 using namespace std;
 
 using ll = long long;
-int can = INT_MAX;
 
-void full_stack(int, int);
+void full_stack(int, int, int);
 
 int main() {
     freopen("input.txt", "r", stdin);
@@ -14,6 +13,7 @@ int main() {
     cin.tie(nullptr);
 
     int n; cin >> n;
+    int can = INT_MAX;
 
     full_stack(n, 0);
 
