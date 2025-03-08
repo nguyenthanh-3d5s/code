@@ -2,15 +2,16 @@
 using namespace std;
 
 using ll = long long;
+#define endl '\n'
 
 ll giai_thua(ll, ll = 1);
 
 int main() {
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
-
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
+    
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
 
     ll k, n;
     cin >> k >> n;
