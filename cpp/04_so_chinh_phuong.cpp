@@ -2,7 +2,7 @@
 using namespace std;
 
 using ll = long long;
-#define endl "\n"
+#define endl '\n'
 
 bool chinh_phuong(int);
 
