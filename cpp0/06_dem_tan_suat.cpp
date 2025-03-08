@@ -2,6 +2,7 @@
 using namespace std;
 
 using ll = long long;
+#define endl '\n'
 
 using mp = map<int, int>;
 using pi = pair<int, int>;
@@ -9,11 +10,11 @@ using pi = pair<int, int>;
 #define se second
 
 int main() {
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
-
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
+    
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
 
     int n; cin >> n;
     mp arr;
