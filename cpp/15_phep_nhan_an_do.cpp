@@ -2,16 +2,18 @@
 using namespace std;
 
 using ll = long long;
+#define endl '\n'
+
 const int mod = 1e9 + 7;
 
 ll phep_nhan(ll, ll);
 
 int main() {
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
-
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
+    
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
 
     ll a, b;
     cin >> a >> b;
