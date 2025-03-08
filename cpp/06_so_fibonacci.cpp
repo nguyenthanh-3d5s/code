@@ -2,18 +2,18 @@
 using namespace std;
 
 using ll = long long;
-#define endl "\n"
+#define endl '\n'
 
 const int n = 90;
 
 void fibo(ll []);
 
 int main() {
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
-
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
+    
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
 
     ll arr[n];
     fibo(arr);
