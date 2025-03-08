@@ -2,15 +2,16 @@
 using namespace std;
 
 using ll = long long;
+#define endl '\n'
 
 void full_stack(int, int, int &);
 
 int main() {
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
-
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
+    
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
 
     int n; cin >> n;
     int can = INT_MAX;
