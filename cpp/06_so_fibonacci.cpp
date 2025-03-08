@@ -2,6 +2,8 @@
 using namespace std;
 
 using ll = long long;
+#define endl "\n"
+
 const int n = 90;
 
 void fibo(ll []);
