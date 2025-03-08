@@ -2,6 +2,7 @@
 using namespace std;
 
 using ll = long long;
+#define endl "\n"
 
 int dem_uoc(int);
 int tong_uoc(int);
