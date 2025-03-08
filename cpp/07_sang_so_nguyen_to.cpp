@@ -2,17 +2,19 @@
 using namespace std;
 
 using ll = long long;
+#define endl '\n'
+
 const int n = 1e7 + 1;
 bool arr[n];
 
 void fibo();
 
 int main() {
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
-
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
+    
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
 
     fibo();
     
