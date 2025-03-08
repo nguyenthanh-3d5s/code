@@ -2,6 +2,7 @@
 using namespace std;
 
 using ll = long long;
+#define endl "\n"
 
 bool nguyen_to(ll);
 void hoan_hao();
