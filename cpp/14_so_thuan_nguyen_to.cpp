@@ -2,6 +2,8 @@
 using namespace std;
 
 using ll = long long;
+#define endl '\n'
+
 const int k = 1e7;
 
 bool nguyen_to(int);
@@ -9,11 +11,11 @@ bool num_nguyen_to(int);
 bool sum_nguyen_to(int);
 
 int main() {
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
-
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
+    
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
 
     int cnt = 0;
 
