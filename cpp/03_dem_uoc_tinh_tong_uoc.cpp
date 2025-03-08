@@ -2,7 +2,7 @@
 using namespace std;
 
 using ll = long long;
-#define endl "\n"
+#define endl '\n'
 
 int dem_uoc(int);
 int tong_uoc(int);
@@ -13,6 +13,7 @@ int main() {
     
     freopen("input.txt", "r", stdin);
     freopen("output.txt", "w", stdout);
+    
     int n; cin >> n;
     
     cout << dem_uoc(n) << endl;
