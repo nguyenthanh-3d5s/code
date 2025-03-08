@@ -2,20 +2,22 @@
 using namespace std;
 
 using ll = long long;
-const int n = 1e3;
+#define endl '\n'
 
 using vi = vector<int>;
 #define pb push_back
 #define sz(x) (int) (x).size()
 
+const int n = 1e3;
+
 void big_int(vi &, int);
 
 int main() {
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
-
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
+    
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
 
     vi arr;
     arr.pb(1);
