@@ -16,12 +16,11 @@ int main() {
     freopen("input.txt", "r", stdin);
     freopen("output.txt", "w", stdout);
 
-    int n; cin >> n;
+    int n;
     mp arr;
 
-    for(int i = 0; i < n; i++) {
-        int x; cin >> x;
-        arr[x]++;
+    while(cin >> n) {
+        arr[n]++;
     }
 
     for(pi i : arr) {
