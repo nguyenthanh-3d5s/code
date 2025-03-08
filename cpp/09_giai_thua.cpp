@@ -19,8 +19,7 @@ int main() {
     freopen("input.txt", "r", stdin);
     freopen("output.txt", "w", stdout);
 
-    vi arr;
-    arr.pb(1);
+    vi arr; arr.pb(1);
 
     for(int i = 2; i <= n; i++) {
         big_int(arr, i);
