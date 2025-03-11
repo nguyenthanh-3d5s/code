@@ -10,9 +10,6 @@ int lcm(int, int);
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
-    
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
 
     cout << gcd(10, 15) << endl;
     cout << lcm(10, 15) << endl;
