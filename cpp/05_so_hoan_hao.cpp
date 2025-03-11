@@ -10,10 +10,7 @@ void hoan_hao();
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
-    
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
-    
+
     hoan_hao();
 
     return 0;
