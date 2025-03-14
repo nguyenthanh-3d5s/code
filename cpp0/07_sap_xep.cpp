@@ -8,8 +8,6 @@ using vi = vector<int>;
 #define pb push_back
 #define all(x) (x).begin(), (x).end()
 
-typedef bool (*func_cmp)(int &, int &);
-
 inline bool cmp_tang(int &a, int &b) {return a < b;}
 inline bool cmp_giam(int &a, int &b) {return a > b;}
 
