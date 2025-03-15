@@ -52,11 +52,11 @@ int tim_kiem_nhi_phan(vi &arr, int x, int mode) {
             if(mode == 2) l = m + 1;
             if(mode == 0) break;
         }
-        else if(arr[m] < x) {
-            l = m + 1;
+        else if(arr[m] > x) {
+            r = m - 1;
         }
         else {
-            r = m - 1;
+            l = m + 1;
         }
     }
     return res;
