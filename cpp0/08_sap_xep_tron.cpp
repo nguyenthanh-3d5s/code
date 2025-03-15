@@ -63,6 +63,7 @@ void tron(vi &arr, int l, int m, int r, func_cmp cmp) {
 void sap_xep_tron(vi &arr, int l, int r, func_cmp cmp) {
     if(l >= r) return;
     int m = l + (r - l) / 2;
+    
     sap_xep_tron(arr, l, m, cmp);
     sap_xep_tron(arr, m + 1, r, cmp);
     tron(arr, l, m, r, cmp);
