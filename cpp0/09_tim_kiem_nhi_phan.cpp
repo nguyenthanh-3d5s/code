@@ -27,7 +27,7 @@ int main() {
 
     sort(all(arr), cmp_tang);
 
-    int x = tim_kiem_nhi_phan(arr, 0, sz(arr) - 1, 2, 2);
+    int x = tim_kiem_nhi_phan(arr, 0, sz(arr) - 1, 2);
 
     if(x == -1) {
         cout << "khong tim thay";
