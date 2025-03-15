@@ -10,8 +10,8 @@ using vi = vector<int>;
 
 typedef bool (*func_cmp)(int &, int &);
 
-inline bool cmp_tang(int &a, int &b) {return a < b;}
-inline bool cmp_giam(int &a, int &b) {return a > b;}
+inline bool cmp_tang(int &a, int &b) {return a <= b;}
+inline bool cmp_giam(int &a, int &b) {return a >= b;}
 
 void tron(vi &, int, int, int, func_cmp);
 void sap_xep_tron(vi &, int, int, func_cmp);
