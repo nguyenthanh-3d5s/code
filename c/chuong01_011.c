@@ -19,7 +19,9 @@ int main() {
         elif(a * a == b * b + c * c || b * b == a * a + c * c || c * c == a * a + b * b) {
             printf("3\n");
         }
-        else printf("4\n");
+        else {
+            printf("4\n");
+        }
     }
 
     return 0;
