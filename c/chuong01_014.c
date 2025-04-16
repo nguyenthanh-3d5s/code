@@ -8,10 +8,18 @@ int main() {
 
     float tb = (a + b + c * 2 + d * 3) / 7;
 
-    if(tb >= 8) printf("GIOI\n");
-    elif(tb >= 6.5) printf("KHA\n");
-    elif(tb >= 5) printf("TRUNG BINH\n");
-    else printf("YEU\n");
+    if(tb >= 8) {
+        printf("GIOI\n");
+    }
+    elif(tb >= 6.5) {
+        printf("KHA\n");
+    }
+    elif(tb >= 5) {
+        printf("TRUNG BINH\n");
+    }
+    else {
+        printf("YEU\n");
+    }
 
     return 0;
 }
