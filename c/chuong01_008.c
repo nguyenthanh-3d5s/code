@@ -11,7 +11,9 @@ int main() {
 
     printf("%d %d %lld ", tong, hieu, tich);
 
-    if(b == 0) printf("INVALID\n");
+    if(b == 0) {
+        printf("INVALID\n");
+    }
     else {
         double thuong = 1.0 * a / b;
 
