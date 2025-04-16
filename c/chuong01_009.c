@@ -6,10 +6,10 @@ int main() {
     scanf("%d", &n);
 
     if(n % 400 == 0 || (n % 4 == 0 && n % 100 != 0)) {
-        printf("YES\n")
+        printf("YES\n");
     }
     else {
-        printf("NO\n")
+        printf("NO\n");
     }
 
     return 0;
