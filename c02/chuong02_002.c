@@ -9,7 +9,7 @@ int main() {
     ll sum = 0;
 
     for(int i = 1; i <= n; i++) {
-        sum += i * i;
+        sum += 1ll * i * i;
     }
 
     printf("%lld\n", sum);
