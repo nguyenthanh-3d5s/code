@@ -13,12 +13,12 @@ int main() {
         printf("%d\n", n / 2);
 
         if(n % 2 == 0) {
-            for(int i = 1; i <= n / 2; i++) {
+            for(int i = 1, _n = n / 2; i <= _n; i++) {
                 printf("2 ");
             }
         }
         else {
-            for(int i = 1; i <= n / 2 - 1; i++) {
+            for(int i = 1, _n = n / 2 - 1; i <= _n; i++) {
                 printf("2 ");
             }
             printf("3\n");
