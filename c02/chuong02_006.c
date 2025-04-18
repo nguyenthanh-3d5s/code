@@ -9,7 +9,7 @@ int main() {
 
     ll sum = 0;
 
-    for(int i = 1; i <= sqrt(n); i++) {
+    for(int i = 1, _n = sqrt(n); i <= _n; i++) {
         if(n % i == 0) {
             sum += i;
 
