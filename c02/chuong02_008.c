@@ -2,12 +2,13 @@
 #include <math.h>
 #define ll long long
 #define elif else if
+#define REP(i, n) for(int i = 0, _n = (n); i < _n; i++)
 
 int main() {
     ll n;
     scanf("%lld", &n);
 
-    for(int i = 1, _n = sqrt(n); i <= _n; i++) {
+    REP(i, sqrt(n)) {
         printf("%lld ", 1ll * i * i);
     }
     printf("\n");
