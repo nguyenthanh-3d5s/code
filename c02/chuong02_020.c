@@ -1,6 +1,7 @@
 #include <stdio.h>
 #define ll long long
 #define elif else if
+#define REP(i, n) for(int i = 1, _n = (n); i <= _n; i++)
 
 int main() {
     int n;
@@ -13,12 +14,12 @@ int main() {
         printf("%d\n", n / 2);
 
         if(n % 2 == 0) {
-            for(int i = 1, _n = n / 2; i <= _n; i++) {
+            REP(i, n / 2) {
                 printf("2 ");
             }
         }
         else {
-            for(int i = 1, _n = n / 2 - 1; i <= _n; i++) {
+            REP(i, n / 2 - 1) {
                 printf("2 ");
             }
             printf("3\n");
