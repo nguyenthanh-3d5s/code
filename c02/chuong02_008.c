@@ -7,7 +7,7 @@ int main() {
     ll n;
     scanf("%lld", &n);
 
-    for(int i = 1; i <= sqrt(n); i++) {
+    for(int i = 1, _n = sqrt(n); i <= _n; i++) {
         printf("%lld ", 1ll * i * i);
     }
     printf("\n");
