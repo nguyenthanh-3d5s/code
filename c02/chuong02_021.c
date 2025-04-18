@@ -1,7 +1,8 @@
 #include <stdio.h>
 #define ll long long
 #define elif else if
-#define REP(i, n) for(int i = 0, _n = (n); i < _n; i++)
+#define endl printf("\n")
+#define REP(i, n) for(int i = 1, _n = (n); i <= _n; i++)
 
 int main() {
     int n;
@@ -11,9 +12,48 @@ int main() {
         REP(j, n) {
             printf("*");
         }
-        printf("\n");
+        endl;
     }
-    printf("\n");
+    endl;
+
+    REP(i, n) {
+        REP(j, n) {
+            if(i == 1 || i == n || j == 1 || j == n) {
+                printf("*");
+            }
+            else {
+                printf(" ");
+            }
+        }
+        endl;
+    }
+    endl;
+
+    REP(i, n) {
+        REP(j, n) {
+            if(i == 1 || i == n || j == 1 || j == n) {
+                printf("*");
+            }
+            else {
+                printf("#");
+            }
+        }
+        endl;
+    }
+    endl;
+
+    REP(i, n) {
+        REP(j, n) {
+            if(i == 1 || i == n || j == 1 || j == n) {
+                printf("%d ", i);
+            }
+            else {
+                printf("  ");
+            }
+        }
+        endl;
+    }
+    endl;
 
     return 0;
 }
