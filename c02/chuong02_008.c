@@ -2,7 +2,7 @@
 #include <math.h>
 #define ll long long
 #define elif else if
-#define REP(i, n) for(int i = 0, _n = (n); i < _n; i++)
+#define REP(i, n) for(int i = 1, _n = (n); i <= _n; i++)
 
 int main() {
     ll n;
