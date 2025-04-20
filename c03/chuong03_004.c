@@ -4,28 +4,24 @@
 #define elif else if
 #define REP(i, n) for(int i = 2, _n = (n); i <= _n; i++)
 
-int nt(int n) {
-    if(n < 2) {
-        return 0;
-    }
+int find(int n) {
+    int res = 0;
 
     REP(i, sqrt(n)) {
         if(n % i == 0) {
-            return 0;
+            res = i;
+
+            while(n % i == 0) {
+                n /= i;
+            }
         }
     }
 
-    return 1;
-}
-
-int find(int n) {
-    for(int i = n; i >= 2; i--) {
-        if(n % i == 0 && nt(i)) {
-            return i;
-        }
+    if(n > 1) {
+        res = n;
     }
 
-    return 0;
+    return res;
 }
 
 int main() {
