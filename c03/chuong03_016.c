@@ -25,7 +25,7 @@ int check(ll n) {
         n /= 10;
     }
 
-    if(n * 2 == last || last * 2 == n || tn(rev)) {
+    if((n * 2 == last || last * 2 == n) && tn(rev)) {
         return 1;
     }
 
