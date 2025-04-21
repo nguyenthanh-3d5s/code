@@ -4,7 +4,7 @@
 #define elif else if
 #define REP(i, n) for(int i = 2, _n = (n); i <= _n; i++)
 
-int tongcs(int n) {
+int tong_cs(int n) {
     int sum = 0;
 
     while(n) {
@@ -17,12 +17,12 @@ int tongcs(int n) {
 
 int smith(int n) {
     int tmp = n;
-    int sum1 = tongcs(n);
+    int sum1 = tong_cs(n);
     int sum2 = 0;
 
     REP(i, sqrt(n)) {
         if(n % i == 0) {
-            int d = tongcs(i);
+            int d = tong_cs(i);
 
             while(n % i == 0) {
                 sum2 += d;
@@ -36,7 +36,7 @@ int smith(int n) {
     }
 
     if(n > 1) {
-        sum2 += tongcs(n);
+        sum2 += tong_cs(n);
     }
 
     if(sum1 == sum2) {
