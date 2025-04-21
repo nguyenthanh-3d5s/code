@@ -8,7 +8,7 @@ int main() {
     ll a, b;
     scanf("%lld %lld", &a, &b);
 
-    FOR(i, sqrt(a), sqrt(b)) {
+    FOR(i, ceil(sqrt(a)), sqrt(b)) {
         printf("%lld ", 1ll * i * i);
     }
 
