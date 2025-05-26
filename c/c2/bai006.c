@@ -10,7 +10,9 @@ int main() {
     FOR(i, 1, sqrt(n)) {
         if(n % i == 0) {
             sum += i;
-            sum += n / i;
+            if(i != n / i) {
+                sum += n / i;
+            }
         }
     }
     printf("%d\n", sum);
