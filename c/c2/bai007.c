@@ -6,13 +6,20 @@
 int main() {
     int n;
     scanf("%d", &n);
-    int sum = 0;
+    int dem = 0;
     FOR(i, 1, sqrt(n)) {
         if(n % i == 0) {
-            sum += i;
-            sum += n / i;
+            dem++;
+            if(i != n / i) {
+                dem++;
+            }
         }
     }
-    printf("%d\n", sum);
+    printf("%d\n", dem);
+    FOR(i, 1, n) {
+        if(n % i == 0) {
+            printf("%d ", i);
+        }
+    }
     return 0;
 }
