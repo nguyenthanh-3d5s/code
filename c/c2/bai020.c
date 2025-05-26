@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 #define ll long long
+#define endl printf("\n")
 #define FOR(i, a, b) for(int i = (a), b_ = (b); i <= b_; i++)
 
 int main() {
@@ -15,7 +16,7 @@ int main() {
             FOR(i, 1, n / 2) {
                 printf("2 ");
             }
-            printf("\n");
+            endl;
         }
         else {
             FOR(i, 1, n / 2 - 1) {
