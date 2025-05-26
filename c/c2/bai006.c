@@ -7,9 +7,10 @@ int main() {
     int n;
     scanf("%d", &n);
     int sum = 0;
-    FOR(i, 1, n) {
+    FOR(i, 1, sqrt(n)) {
         if(n % i == 0) {
             sum += i;
+            sum += n / i;
         }
     }
     printf("%d\n", sum);
