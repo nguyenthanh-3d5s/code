@@ -1,55 +1,53 @@
 #include <stdio.h>
 #include <math.h>
 #define ll long long
-#define endl printf("\n")
 #define FOR(i, a, b) for(int i = (a), b_ = (b); i <= b_; i++)
-#define REP(i, a, b) for(int i = (a), b_ = (b); i >= b_; i--)
 
 int main() {
     int n;
     scanf("%d", &n);
-    FOR(i, 1, n) FOR(j, 1, n) {
-        printf("*");
-        if(j == n) {
-            endl;
-        }
-    }
-    endl;
-    FOR(i, 1, n) FOR(j, 1, n) {
-        if(i == 1 || i == n || j == 1 || j == n) {
+    FOR(i, 1, n) {
+        FOR(j, 1, n) {
             printf("*");
         }
-        else {
-            printf(" ");
-        }
-        if(j == n) {
-            endl;
-        }
+        printf("\n");
     }
-    endl;
-    FOR(i, 1, n) FOR(j, 1, n) {
-        if(i == 1 || i == n || j == 1 || j == n) {
-            printf("*");
+    printf("\n");
+    FOR(i, 1, n) {
+        FOR(j, 1, n) {
+            if(i == 1 || i == n || j == 1 || j == n) {
+                printf("*");
+            }
+            else {
+                printf(" ");
+            }
         }
-        else {
-            printf("#");
-        }
-        if(j == n) {
-            endl;
-        }
+        printf("\n");
     }
-    endl;
-    FOR(i, 1, n) FOR(j, 1, n) {
-        if(i == 1 || i == n || j == 1 || j == n) {
-            printf("%d ", i);
+    printf("\n");
+    FOR(i, 1, n) {
+        FOR(j, 1, n) {
+            if(i == 1 || i == n || j == 1 || j == n) {
+                printf("*");
+            }
+            else {
+                printf("#");
+            }
         }
-        else {
-            printf("  ");
-        }
-        if(j == n) {
-            endl;
-        }
+        printf("\n");
     }
-    endl;
+    printf("\n");
+    FOR(i, 1, n) {
+        FOR(j, 1, n) {
+            if(i == 1 || i == n || j == 1 || j == n) {
+                printf("%d ", i);
+            }
+            else {
+                printf("  ");
+            }
+        }
+        printf("\n");
+    }
+    printf("\n");
     return 0;
 }
