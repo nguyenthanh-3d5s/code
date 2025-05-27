@@ -6,7 +6,7 @@
 
 int cp(int n) {
     int can = sqrt(n);
-    return (can * can == n) ? 1 : 0;
+    return can * can == n;
 }
 
 int main() {
