@@ -22,7 +22,7 @@ int check(int n) {
         rev = rev * 10 + n % 10;
         n /= 10;
     }
-    if((n * 2 == last || last * 2 == n) || tn(rev)) {
+    if((n * 2 == last || last * 2 == n) && tn(rev)) {
         return 1;
     }
     return 0;
