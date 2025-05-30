@@ -4,8 +4,6 @@
 #define FOR(i, a, b) for(int i = (a), b_ = (b); i < b_; i++)
 #define REP(i, a, b) for(int i = (a), b_ = (b); i > b_; i--)
 
-
-
 int main() {
     int n;
     scanf("%d", &n);
