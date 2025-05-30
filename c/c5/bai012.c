@@ -15,7 +15,7 @@ int main() {
     int min = 1e9, max = -1e9;
     int minpos, maxpos;
     FOR(i, 0, n) {
-        if(a[i] < min) {
+        if(a[i] <= min) {
             min = a[i];
             minpos = i;
         }
