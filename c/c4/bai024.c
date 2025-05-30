@@ -16,6 +16,7 @@ int check(int a[], int n) {
             return check(a, n - 1);
         }
     }
+    return 0;
 }
 
 int main() {
