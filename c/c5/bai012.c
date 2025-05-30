@@ -13,25 +13,17 @@ int main() {
         scanf("%d", &a[i]);
     }
     int min = 1e9, max = -1e9;
+    int minpos, maxpos;
     FOR(i, 0, n) {
         if(a[i] < min) {
             min = a[i];
+            minpos = i;
         }
         if(a[i] > max) {
             max = a[i];
+            maxpos = i;
         }
     }
-    REP(i, n - 1, -1) {
-        if(a[i] == min) {
-            printf("%d ", i);
-            break;
-        }
-    }
-    FOR(i, 0, n) {
-        if(a[i] == max) {
-            printf("%d ", i);
-            break;
-        }
-    }
+    printf("%d %d\n", minpos, maxpos);
     return 0;
 }
