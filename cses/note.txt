@@ -1,2 +1,3 @@
-minv
+minv : nhỏ
 sum : tổng
+csum : tổng
