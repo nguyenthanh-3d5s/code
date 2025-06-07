@@ -2,3 +2,4 @@ minv : nhỏ
 sum : tổng
 csum : tổng
 mod : móp
+ans : công thức
