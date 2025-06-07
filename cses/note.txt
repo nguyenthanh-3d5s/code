@@ -1,3 +1,4 @@
 minv : nhỏ
 sum : tổng
 csum : tổng
+mod : móp
