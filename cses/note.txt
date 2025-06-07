@@ -1,1 +1,2 @@
-
+minv
+sum : tổng
