@@ -6,3 +6,4 @@ ans : công thức
 grid : matrix
 ret :
 amt :
+left : 
