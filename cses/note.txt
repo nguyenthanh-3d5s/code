@@ -1,9 +1,0 @@
-minv : nhỏ
-sum : tổng
-csum : tổng
-mod : móp
-ans : công thức
-grid : matrix
-ret :
-amt :
-left : 
