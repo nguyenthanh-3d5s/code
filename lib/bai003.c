@@ -12,7 +12,7 @@ int part(int arr[], int l, int r) {
     int i = l - 1;
 
     for(int j = l; j < r; j++) {
-        if(arr[j] <= pivot) {
+        if(arr[j] < pivot) {
             i++;
             swap(&arr[i], &arr[j]);
         }
