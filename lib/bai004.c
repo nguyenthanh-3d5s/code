@@ -6,7 +6,7 @@ int search(int arr[], int n, int x, int pos) {
     int res = -1;
 
     while(l <= r) {
-        int m = (l + r) / 2;
+        int m = l + (r - l) / 2;
 
         if(arr[m] == x) {
             res = m;
