@@ -14,11 +14,11 @@ int search(int arr[], int n, int x, int pos) {
             else if(pos == 2) l = m + 1;
             else break;
         }
-        else if(arr[m] < x) {
-            l = m + 1;
+        else if(arr[m] > x) {
+            r = m - 1;
         }
         else {
-            r = m - 1;
+            l = m + 1;
         }
     }
 
