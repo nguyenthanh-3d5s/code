@@ -1,22 +1,28 @@
 #include <stdio.h>
+#include <stdbool.h>
 #define ll long long
+#define n 100
+#define m 100
+
+bool gird[n][m];
 
 int dx[4] = {-1, 0, 1, 0};
 int dy[4] = {0, -1, 0, 1};
 
-int main() {
-    int grid[3][3] = {
-        {1, 2, 3},
-        {4, 5, 6},
-        {7, 8, 9}
-    };
+void loang(int x, int y) {
+    gird[x][y] = 0;
 
-    int x = 1, y = 1;
     for(int k = 0; k < 4; k++) {
         int i = x + dx[k];
         int j = y + dy[k];
-        printf("%d ", grid[i][j]);
+
+        if(i >= 0 && i < n && j >= 0 && j < m && gird[i][j] == 1) {
+            loang(i, j);
+        }
     }
+}
+
+int main() {
 
     return 0;
 }
