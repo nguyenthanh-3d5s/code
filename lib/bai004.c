@@ -10,9 +10,7 @@ int search(int arr[], int n, int x, int pos) {
 
         if(arr[m] == x) {
             res = m;
-            if(pos == 1) r = m - 1;
-            else if(pos == 2) l = m + 1;
-            else break;
+            break;
         }
         else if(arr[m] > x) {
             r = m - 1;
