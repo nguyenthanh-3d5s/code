@@ -2,19 +2,8 @@
 #include <stdbool.h>
 #define ll long long
 
-typedef bool (*cmp_f)(int *, int *);
-
-typedef struct {
-    int x;
-    int y;
-}ii;
-
-bool cmp_i(int *a, int *b) {
+bool cmp(int *a, int *b) {
     return *a < *b;
-}
-
-bool cmp_ii(ii *a, ii *b) {
-    return a->x < b->x;
 }
 
 void swap(int *a, int *b) {
@@ -23,13 +12,7 @@ void swap(int *a, int *b) {
     *b = tmp;
 }
 
-void swap_ii(ii *a, ii *b) {
-    ii tmp = *a;
-    *a = *b;
-    *b = tmp;
-}
-
-int part(int arr[], int l, int r, cmp_f cmp) {
+int part(int arr[], int l, int r) {
     int pivot = arr[r];
     int i = l - 1;
 
@@ -39,18 +22,16 @@ int part(int arr[], int l, int r, cmp_f cmp) {
             swap(&arr[i], &arr[j]);
         }
     }
+    swap(&arr[i + 1], &arr[r]);
 
-    i++;
-    swap(&arr[i], &arr[r]);
-
-    return i;
+    return i + 1;
 }
 
-void sort(int arr[], int l, int r, cmp_f cmp) {
+void sort(int arr[], int l, int r) {
     if(l < r) {
-        int m = part(arr, l, r, cmp);
-        sort(arr, l, m - 1, cmp);
-        sort(arr, m + 1, r, cmp);
+        int m = part(arr, l, r);
+        sort(arr, l, m - 1);
+        sort(arr, m + 1, r);
     }
 }
 
