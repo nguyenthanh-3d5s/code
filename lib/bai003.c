@@ -18,6 +18,7 @@ int part(int arr[], int l, int r) {
 
     for(int j = l; j < r; j++) {
         if(cmp(&arr[j], &pivot)) {
+            
             swap(&arr[++i], &arr[j]);
         }
     }
