@@ -1,10 +1,9 @@
 #include <stdio.h>
-#include <stdbool.h>
 #define ll long long
 #define n 10
 #define m 10
 
-bool gird[n][m];
+int gird[n][m];
 
 int dx[4] = {-1, 0, 1, 0};
 int dy[4] = {0, -1, 0, 1};
