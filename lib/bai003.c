@@ -18,13 +18,12 @@ int part(int arr[], int l, int r) {
 
     for(int j = l; j < r; j++) {
         if(cmp(&arr[j], &pivot)) {
-            i++;
-            swap(&arr[i], &arr[j]);
+            swap(&arr[++i], &arr[j]);
         }
     }
-    swap(&arr[i + 1], &arr[r]);
+    swap(&arr[++i], &arr[r]);
 
-    return i + 1;
+    return i;
 }
 
 void sort(int arr[], int l, int r) {
