@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdbool.h>
 #define ll long long
-#define n 100
-#define m 100
+#define n 10
+#define m 10
 
 bool gird[n][m];
 
