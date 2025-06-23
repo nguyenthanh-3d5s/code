@@ -4,7 +4,7 @@
 #define n 10
 #define m 10
 
-bool gird[n][m];
+int gird[n][m];
 
 int dx[4] = {-1, 0, 1, 0};
 int dy[4] = {0, -1, 0, 1};
@@ -21,8 +21,9 @@ bool dfs(int x, int y, int a, int b) {
         int j = y + dy[k];
 
         if(i >= 0 && i < n && j >= 0 && j < m && gird[i][j] == 1) {
-            if(loang(i, j, a, b)) {
+            if(dfs(i, j, a, b)) {
                 printf("(%d %d) ", i, j);
+                return 1;
             }
         }
     }
@@ -30,6 +31,6 @@ bool dfs(int x, int y, int a, int b) {
 }
 
 int main() {
-
+    
     return 0;
 }
