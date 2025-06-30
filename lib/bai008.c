@@ -9,8 +9,12 @@ int main() {
     char *token = strtok(str, " ");
 
     while(token != NULL) {
-        printf("%s ", token);
+        printf("%s", token);
         token = strtok(NULL, " ");
+
+        if(token != NULL) {
+            printf(" ");
+        }
     }
     return 0;
 }
