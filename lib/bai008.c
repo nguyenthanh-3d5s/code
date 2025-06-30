@@ -3,16 +3,23 @@
 #define ll long long
 
 int main() {
-    char str[100];
-    fgets(str, 100, stdin);
+    char chr[100];
+    fgets(chr, 100, stdin);
 
-    char *token = strtok(str, " ");
+    char *token = strtok(chr, " ");
+
+    char str[10][10];
+    int n = 0;
 
     while(token != NULL) {
-        printf("%s", token);
+        strcpy(str[n++], token);
         token = strtok(NULL, " ");
+    }
 
-        if(token != NULL) {
+    for(int i = 0; i < n; i++) {
+        printf("%s", str[i]);
+
+        if(i != n - 1) {
             printf(" ");
         }
     }
