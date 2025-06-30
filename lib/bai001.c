@@ -16,6 +16,9 @@ void swap(ll *a, ll *b) {
 }
 
 int main() {
-
+    int x;
+    while(scanf("%d", &x) != -1) {
+        printf("%d ", x);
+    }
     return 0;
 }
