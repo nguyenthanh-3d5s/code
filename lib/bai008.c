@@ -4,7 +4,9 @@
 
 int main() {
     char chr[100];
+
     fgets(chr, 100, stdin);
+    chr[strlen(chr)] = '\0';
 
     char *token = strtok(chr, " ");
 
