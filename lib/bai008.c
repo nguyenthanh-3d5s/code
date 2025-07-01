@@ -6,7 +6,7 @@ int main() {
     char chr[100];
 
     fgets(chr, 100, stdin);
-    chr[strlen(chr)] = '\0';
+    chr[strlen(chr) - 1] = '\0';
 
     char *token = strtok(chr, " ");
 
