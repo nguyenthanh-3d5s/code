@@ -2,19 +2,19 @@
 #include <stdbool.h>
 #include <math.h>
 #define ll long long
-#define n (int) 1e7
+#define n_1 (int) 1e7
 
-bool arr[n];
+bool arr_1[n_1];
 
 void sang() {
-    for(int i = 2; i < n; i++) {
-        arr[i] = 1;
+    for(int i = 2; i < n_1; i++) {
+        arr_1[i] = 1;
     }
 
-    for(int i = 2; i <= sqrt(n); i++) {
-        if(arr[i]) {
-            for(int j = i * i; j < n; j += i) {
-                arr[j] = 0;
+    for(int i = 2; i <= sqrt(n_1); i++) {
+        if(arr_1[i]) {
+            for(int j = i * i; j < n_1; j += i) {
+                arr_1[j] = 0;
             }
         }
     }
