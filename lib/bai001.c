@@ -9,6 +9,10 @@ ll max(ll a, ll b) {
     return a > b ? a : b;
 }
 
+double fix(double a, double b) {
+    return a / b ? a / b : 0;
+}
+
 void swap(ll *a, ll *b) {
     ll tmp = *a;
     *a = *b;
