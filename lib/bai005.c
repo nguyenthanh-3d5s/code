@@ -8,7 +8,7 @@ int gird_1_[n_1][m_1];
 int dx[4] = {-1, 0, 1, 0};
 int dy[4] = {0, -1, 0, 1};
 
-void loang(int x, int y) {
+void flood(int x, int y) {
     gird_1_[x][y] = 0;
 
     for(int k = 0; k < 4; k++) {
