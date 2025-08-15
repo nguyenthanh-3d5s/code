@@ -3,13 +3,13 @@
 
 int search(int arr_1_[], int n_1, int x) {
     int l = 0, r = n_1 - 1;
-    int pos = -1;
+    int pos_1 = -1;
 
     while(l <= r) {
         int m = l + (r - l) / 2;
 
         if(arr_1_[m] == x) {
-            pos = m;
+            pos_1 = m;
             break;
         }
         else if(arr_1_[m] > x) {
@@ -20,7 +20,7 @@ int search(int arr_1_[], int n_1, int x) {
         }
     }
 
-    return pos;
+    return pos_1;
 }
 
 int main() {
