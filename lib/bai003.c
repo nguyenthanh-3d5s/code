@@ -12,27 +12,28 @@ void swap(int *a, int *b) {
     *b = tmp;
 }
 
-int part(int arr[], int l, int r) {
-    int pivot = arr[r];
-    int i = l - 1;
+int part(int arr_1_[], int l, int r) {
+    int i = l;
 
     for(int j = l; j < r; j++) {
-        if(cmp(&arr[j], &pivot)) {
-            
-            swap(&arr[++i], &arr[j]);
+        if(cmp(&arr_1_[j], &arr_1_[r])) {
+
+            swap(&arr_1_[i++], &arr_1_[j]);
         }
     }
-    swap(&arr[++i], &arr[r]);
+    swap(&arr_1_[i], &arr_1_[r]);
 
     return i;
 }
 
-void sort(int arr[], int l, int r) {
-    if(l < r) {
-        int m = part(arr, l, r);
-        sort(arr, l, m - 1);
-        sort(arr, m + 1, r);
+void sort(int arr_1_[], int l, int r) {
+    if(l >= r) {
+        return;
     }
+
+    int m = part(arr_1_, l, r);
+    sort(arr_1_, l, m - 1);
+    sort(arr_1_, m + 1, r);
 }
 
 int main() {
