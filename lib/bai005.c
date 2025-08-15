@@ -16,7 +16,7 @@ void flood(int x, int y) {
         int j = y + dy[k];
 
         if(i >= 0 && i < n_1 && j >= 0 && j < m_1 && gird_1_[i][j] == 1) {
-            loang(i, j);
+            flood(i, j);
         }
     }
 }
