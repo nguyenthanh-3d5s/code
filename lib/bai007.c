@@ -1,39 +1,34 @@
 #include <stdio.h>
 #define ll long long
-#define n 10
-#define m 10
+#define n_1 10
+#define m_1 10
 
-int gird[n][m];
+int gird_1_[n_1][m_1];
 
 int dx[4] = {-1, 0, 1, 0};
 int dy[4] = {0, -1, 0, 1};
 
-int da[n * m];
-int db[n * m];
-int dc[n * m];
+int arr_1_[n_1 * m_1];
+int arr_2_[n_1 * m_1];
+int arr_3_[n_1 * m_1];
 
 int l = 0;
 int r = 1;
 
-void bfs(int x_, int y_, int a, int b) {
-    gird[x_][y_] = 0;
-    da[0] = x_;
-    db[0] = y_;
-    dc[0] = -1;
-    
+void bfs(int a, int b) {
     while(l != r) {
-        int x = da[l];
-        int y = db[l];
+        int x = arr_1_[l];
+        int y = arr_2_[l];
 
         for(int k = 0; k < 4; k++) {
             int i = x + dx[k];
             int j = y + dy[k];
 
-            if(i >= 0 && i < n && j >= 0 && j < m && gird[i][j] == 1) {
-                gird[i][j] = 0;
-                da[r] = i;
-                db[r] = j;
-                dc[r++] = l;
+            if(i >= 0 && i < n_1 && j >= 0 && j < m_1 && gird_1_[i][j] == 1) {
+                gird_1_[i][j] = 0;
+                arr_1_[r] = i;
+                arr_2_[r] = j;
+                arr_3_[r++] = l;
 
                 if(i == a && j == b) {
                     return;
@@ -48,12 +43,15 @@ void trace() {
     int pos = r - 1;
 
     while(pos != -1) {
-        printf("(%d %d) ", da[pos], db[pos]);
-        pos = dc[pos];
+        printf("(%d %d) ", arr_1_[pos], arr_2_[pos]);
+        pos = arr_3_[pos];
     }
 }
 
 int main() {
-    
+    gird_1_[x][y] = 0;
+    arr_1_[l] = x;
+    arr_2_[l] = y;
+    arr_3_[l] = -1;
     return 0;
 }
