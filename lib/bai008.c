@@ -3,25 +3,25 @@
 #define ll long long
 
 int main() {
-    char chr[100];
+    char str_1_[100];
 
-    fgets(chr, 100, stdin);
-    chr[strlen(chr) - 1] = '\0';
+    fgets(str_1_, 100, stdin);
+    str_1_[strlen(str_1_) - 1] = '\0';
 
-    char *token = strtok(chr, " ");
+    char *token = strtok(str_1_, " ");
 
-    char str[10][10];
-    int n = 0;
+    char str_2_[10][10];
+    int n_2 = 0;
 
     while(token != NULL) {
-        strcpy(str[n++], token);
+        strcpy(str_2_[n_2++], token);
         token = strtok(NULL, " ");
     }
 
-    for(int i = 0; i < n; i++) {
-        printf("%s", str[i]);
+    for(int i = 0; i < n_2; i++) {
+        printf("%s", str_2_[i]);
 
-        if(i != n - 1) {
+        if(i != n_2 - 1) {
             printf(" ");
         }
     }
