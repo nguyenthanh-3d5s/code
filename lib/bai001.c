@@ -19,6 +19,19 @@ void swap(ll *a, ll *b) {
     *b = tmp;
 }
 
+void cache() {
+    while(getchar() != '\n') {}
+}
+
+void cache_fgets(char str[]) {
+    if(str[strlen(str) - 1] != '\n') {
+        cache();
+    }
+    else {
+        str[strlen(str) - 1] = '\0';
+    }
+}
+
 int main() {
     int x;
     while(scanf("%d", &x) != -1) {
