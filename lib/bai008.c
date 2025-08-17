@@ -2,11 +2,24 @@
 #include <string.h>
 #define ll long long
 
+void cache_sf() {
+    while(getchar() != '\n') {}
+}
+
+void cache_fs(char str[]) {
+    if(str[strlen(str) - 1] != '\n') {
+        cache_sf();
+    }
+    else {
+        str[strlen(str) - 1] = '\0';
+    }
+}
+
 int main() {
     char str_1_[100];
 
     fgets(str_1_, 100, stdin);
-    str_1_[strlen(str_1_) - 1] = '\0';
+    cache(str_1_);
 
     char *token = strtok(str_1_, " ");
 
