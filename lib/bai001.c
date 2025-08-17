@@ -32,6 +32,19 @@ void cache_fs(char str[]) {
     }
 }
 
+ll gcd(ll a, ll b) {
+    while(b) {
+        ll r = a % b;
+        a = b;
+        b = r;
+    }
+    return a;
+}
+
+ll lcm(ll a, ll b) {
+    return a / gcd(a, b) * b;
+}
+
 int main() {
     int x;
     while(scanf("%d", &x) != -1) {
