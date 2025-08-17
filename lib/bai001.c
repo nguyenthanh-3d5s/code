@@ -19,13 +19,13 @@ void swap(ll *a, ll *b) {
     *b = tmp;
 }
 
-void cache() {
+void cache_sf() {
     while(getchar() != '\n') {}
 }
 
-void cache_fgets(char str[]) {
+void cache_fs(char str[]) {
     if(str[strlen(str) - 1] != '\n') {
-        cache();
+        cache_sf();
     }
     else {
         str[strlen(str) - 1] = '\0';
