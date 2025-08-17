@@ -19,7 +19,7 @@ int main() {
     char str_1_[100];
 
     fgets(str_1_, 100, stdin);
-    cache(str_1_);
+    cache_fs(str_1_);
 
     char *token = strtok(str_1_, " ");
 
