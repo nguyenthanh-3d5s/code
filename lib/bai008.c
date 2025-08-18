@@ -18,7 +18,7 @@ void cache_fs(char str[]) {
 int main() {
     char str_1_[100];
 
-    fgets(str_1_, 100, stdin);
+    fgets(str_1_, sizeof(str_1_), stdin);
     cache_fs(str_1_);
 
     char *token = strtok(str_1_, " ");
