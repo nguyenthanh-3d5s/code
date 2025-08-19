@@ -1,1 +1,4 @@
+tea: trà
+coffee: cà phê
 
+or: hoặc
