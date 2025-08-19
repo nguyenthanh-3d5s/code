@@ -1,4 +1,5 @@
 tea: trà
 coffee: cà phê
+welcome: chào mừng
 
 or: hoặc
