@@ -1,0 +1,3 @@
+hi: chào
+
+my name is: tên tôi là
