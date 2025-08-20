@@ -1,3 +1,7 @@
+mom: mẹ
+dad: bố
+
 hi: chào
 
 my name is: tên tôi là
+this is: đây là
