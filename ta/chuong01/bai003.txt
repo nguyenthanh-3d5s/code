@@ -1,6 +1,8 @@
 mom: mẹ
 dad: bố
 
+my: của tôi
+
 hi: chào
 
 my name is: tên tôi là
