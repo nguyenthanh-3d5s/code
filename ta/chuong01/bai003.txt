@@ -9,4 +9,4 @@ hi: chào
 
 my name is: tên tôi là
 this is: đây là
-tên + is from: tên đến từ
+tên + is from: tên + đến từ
