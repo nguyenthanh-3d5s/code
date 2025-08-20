@@ -1,6 +1,7 @@
 mom: mẹ
 dad: bố
 sister: chị em gái
+brother: anh em trai
 
 my: của tôi
 
