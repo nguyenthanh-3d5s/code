@@ -1,4 +1,5 @@
 passport: hộ chiếu
 ticket: vé
+gate: cổng
 
 your: của bạn
