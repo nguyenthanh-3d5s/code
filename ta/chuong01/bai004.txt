@@ -2,4 +2,6 @@ passport: hộ chiếu
 ticket: vé
 gate: cổng
 
+yes: vâng
+
 your: của bạn
