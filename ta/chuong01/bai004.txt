@@ -1,6 +1,8 @@
 passport: hộ chiếu
 ticket: vé
 gate: cổng
+phone: điện thoại
+bag: ba lô
 
 yes: vâng
 
