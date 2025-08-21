@@ -9,3 +9,4 @@ yes: vâng
 your: của bạn
 
 is this: đây là ... phải không ?
+welcome to: chào mừng tới
