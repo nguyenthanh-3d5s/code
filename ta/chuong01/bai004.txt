@@ -4,6 +4,7 @@ gate: cổng
 phone: điện thoại
 bag: ba lô
 customs: hải quan
+jacket: áo khoác
 
 yes: vâng
 your: của bạn
