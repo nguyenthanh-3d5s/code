@@ -7,3 +7,4 @@ bag: ba lô
 yes: vâng
 
 your: của bạn
+is this: đây là ... phải không ?
