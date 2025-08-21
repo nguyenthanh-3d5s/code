@@ -3,6 +3,7 @@ ticket: vé
 gate: cổng
 phone: điện thoại
 bag: ba lô
+customs: hải quan
 
 yes: vâng
 
