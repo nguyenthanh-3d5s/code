@@ -1,1 +1,4 @@
 passport: hộ chiếu
+ticket: vé
+
+your: của bạn
