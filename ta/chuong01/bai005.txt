@@ -1,6 +1,6 @@
 city: thành phố
-quiet: yên tĩnh
 
+quiet: yên tĩnh
 big: to, lớn
 nice: đẹp, tốt
 
