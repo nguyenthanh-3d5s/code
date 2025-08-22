@@ -2,6 +2,7 @@ city: thành phố
 museum: bảo tàng
 street: đường đi
 library: thư viện
+house: ngôi nhà
 
 quiet: yên tĩnh
 big: to, lớn
