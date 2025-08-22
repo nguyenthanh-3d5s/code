@@ -1,1 +1,4 @@
+city: thành phố
+big: to lớn
 
+tên + is + thuộc tính: ... là ...
