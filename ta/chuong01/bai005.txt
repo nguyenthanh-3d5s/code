@@ -5,6 +5,7 @@ library: thư viện
 house: ngôi nhà
 university: trường đh
 park: công viên
+restaurant: nhà hàng
 
 quiet: yên tĩnh
 big: to, lớn
@@ -17,3 +18,4 @@ right: đúng, đúng không
 tên + is + thuộc tính: ... là ...
 this + tên + is + thuộc tính: ... này là ...
 where is: ở đâu
+very + thuộc tính: rất ...
