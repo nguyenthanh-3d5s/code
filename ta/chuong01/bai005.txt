@@ -1,12 +1,14 @@
 city: thành phố
 museum: bảo tàng
 street: đường đi
+library: thư viện
 
 quiet: yên tĩnh
 big: to, lớn
 nice: đẹp, tốt
 famous: nổi tiếng
 busy: bận, đông đúc
+very: rất
 
 tên + is + thuộc tính: ... là ...
 this + tên + is + thuộc tính: ... này là ...
