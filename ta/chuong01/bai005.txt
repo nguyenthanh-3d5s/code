@@ -4,6 +4,7 @@ street: đường đi
 library: thư viện
 house: ngôi nhà
 university: trường đh
+park: công viên
 
 quiet: yên tĩnh
 big: to, lớn
