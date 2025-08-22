@@ -1,7 +1,10 @@
 city: thành phố
+museum: bảo tàng
+street: đường đi
 
 quiet: yên tĩnh
 big: to, lớn
 nice: đẹp, tốt
 
 tên + is + thuộc tính: ... là ...
+this + tên + is + thuộc tính: ... này là ...
