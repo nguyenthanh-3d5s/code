@@ -5,6 +5,7 @@ street: đường đi
 quiet: yên tĩnh
 big: to, lớn
 nice: đẹp, tốt
+famous: nổi tiếng
 
 tên + is + thuộc tính: ... là ...
 this + tên + is + thuộc tính: ... này là ...
