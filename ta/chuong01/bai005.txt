@@ -6,6 +6,7 @@ quiet: yên tĩnh
 big: to, lớn
 nice: đẹp, tốt
 famous: nổi tiếng
+busy: bận, đông đúc
 
 tên + is + thuộc tính: ... là ...
 this + tên + is + thuộc tính: ... này là ...
