@@ -3,6 +3,7 @@ museum: bảo tàng
 street: đường đi
 library: thư viện
 house: ngôi nhà
+university: trường đh
 
 quiet: yên tĩnh
 big: to, lớn
@@ -13,3 +14,4 @@ very: rất
 
 tên + is + thuộc tính: ... là ...
 this + tên + is + thuộc tính: ... này là ...
+where is: ở đâu
