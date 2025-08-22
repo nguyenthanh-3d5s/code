@@ -1,4 +1,6 @@
 city: thành phố
+
 big: to lớn
+nice: tốt
 
 tên + is + thuộc tính: ... là ...
