@@ -11,6 +11,7 @@ nice: đẹp, tốt
 famous: nổi tiếng
 busy: bận, đông đúc
 very: rất
+right: đúng, đúng không
 
 tên + is + thuộc tính: ... là ...
 this + tên + is + thuộc tính: ... này là ...
