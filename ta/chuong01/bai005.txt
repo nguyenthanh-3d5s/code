@@ -1,6 +1,6 @@
 city: thành phố
 museum: bảo tàng
-street: đường đi
+street: đường phố
 library: thư viện
 house: ngôi nhà
 university: trường đh
