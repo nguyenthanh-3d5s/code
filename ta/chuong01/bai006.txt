@@ -1,0 +1,6 @@
+menu: thực đơn
+sandwich: bánh mỳ kẹp
+like: thích ,muốn
+expensive: đắt
+
+a: 1
