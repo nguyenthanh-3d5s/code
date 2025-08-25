@@ -1,6 +1,10 @@
 menu: thực đơn
 sandwich: bánh mỳ kẹp
-like: thích ,muốn
 expensive: đắt
+pizza: bánh piza
+glass: ly, cốc
 
 a: 1
+like: thích ,muốn
+
+i'd like: tôi muốn ...
