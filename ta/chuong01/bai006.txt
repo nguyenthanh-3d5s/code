@@ -6,5 +6,8 @@ glass: ly, cốc
 
 a: 1
 like: thích ,muốn
+small: nhỏ
 
 i'd like: tôi muốn ...
+a + tên: 1 ...
+a + thuộc tính + tên: 1 ... thuộc tính
