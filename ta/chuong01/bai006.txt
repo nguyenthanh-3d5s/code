@@ -7,12 +7,14 @@ salad: sa lát
 burger: bánh mỳ kẹp thịt
 soup: súp
 check: hoá đơn
+dessert: món tráng miệng
 
 a: 1
 like: thích ,muốn
 small: nhỏ
 large: lớn
 excuse me: xin làm phiền
+delicious: ngon
 
 i'd like: tôi muốn ...
 a glass of: 1 cốc ...
