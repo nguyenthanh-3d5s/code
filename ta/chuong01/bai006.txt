@@ -1,10 +1,10 @@
 menu: thực đơn
-sandwich: bánh mỳ kẹp
+sandwich: bánh mỳ kẹp rau
 expensive: đắt
 pizza: bánh piza
 glass: ly, cốc
 salad: sa lát
-burger: bánh bơ gơ
+burger: bánh mỳ kẹp thịt
 soup: súp
 
 a: 1
