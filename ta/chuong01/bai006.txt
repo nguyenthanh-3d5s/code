@@ -6,6 +6,7 @@ glass: ly, cốc
 salad: sa lát
 burger: bánh mỳ kẹp thịt
 soup: súp
+check: hoá đơn
 
 a: 1
 like: thích ,muốn
