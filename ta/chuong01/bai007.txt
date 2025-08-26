@@ -2,5 +2,8 @@ doctor: bác sĩ
 student: học sinh
 lawyer: luật sư
 nurse: y tá
+teacher: giáo viên
+wife: vợ
+chef: đầu bếp
 
 i am: tôi là ...
