@@ -1,4 +1,6 @@
 doctor: bác sĩ
 student: học sinh
+lawyer: luật sư
+nurse: y tá
 
 i am: tôi là ...
