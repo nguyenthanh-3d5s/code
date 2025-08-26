@@ -1,2 +1,4 @@
 doctor: bác sĩ
 student: học sinh
+
+i am: tôi là ...
