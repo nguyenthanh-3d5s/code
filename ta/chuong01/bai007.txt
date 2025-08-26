@@ -6,6 +6,9 @@ teacher: giáo viên
 wife: vợ
 chef: đầu bếp
 husband: chồng
+friend: bạn
+
+great: tuyệt vời
 
 i am: tôi là ...
 is + tên + thuộc tính: tên là ...
