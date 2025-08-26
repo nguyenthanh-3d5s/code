@@ -1,1 +1,2 @@
-
+doctor: bác sĩ
+student: học sinh
