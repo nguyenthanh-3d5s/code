@@ -5,5 +5,7 @@ nurse: y tá
 teacher: giáo viên
 wife: vợ
 chef: đầu bếp
+husband: chồng
 
 i am: tôi là ...
+is + tên + thuộc tính: tên là ...
