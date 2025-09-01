@@ -6,6 +6,7 @@ here: ở đây
 hot: nóng
 cloudy: nhiều mây
 hat: mũ
+need: cần
 
 it's + thuộc tính: trời ...
 it's + thuộc tính + in: trời ... ở ...
