@@ -1,1 +1,4 @@
+english: tiếng anh
+spanish: tiếng tây ban nha
 
+i speak: tôi nói ...
