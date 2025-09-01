@@ -6,6 +6,7 @@ chinese: tiếng trung
 understand: hiểu
 oh: ồ
 a little: 1 chút
+at school: ở trường
 
 i speak: tôi nói ...
 i study: tôi học ...
