@@ -5,6 +5,10 @@ rabbit: thỏ
 cute: đáng iu
 two: 2
 three: 3
+smart: thông minh
+snake: rắn
+
+dont worry: đừng lo
 
 do you have: bạn có
 tên + s + are
