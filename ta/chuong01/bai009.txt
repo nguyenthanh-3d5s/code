@@ -1,3 +1,6 @@
-it's rainy: trời mưa
-it's sunny: trời nắng
+rainy: mưa
+sunny: nắng
 today: hôm nay
+cold: lạnh
+
+it's + thuộc tính: trời ...
