@@ -7,6 +7,9 @@ hot: nóng
 cloudy: nhiều mây
 hat: mũ
 need: cần
+scarf: khăn quàng
+windy: nhiều gió
+sweater: áo len
 
 it's + thuộc tính: trời ...
 it's + thuộc tính + in: trời ... ở ...
