@@ -1,1 +1,3 @@
-
+it's rainy: trời mưa
+it's sunny: trời nắng
+today: hôm nay
