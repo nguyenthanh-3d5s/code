@@ -1,4 +1,10 @@
 english: tiếng anh
 spanish: tiếng tây ban nha
+you: bạn
+chinese: tiếng trung
+
+understand: hiểu
+oh: ồ
+little: chút
 
 i speak: tôi nói ...
