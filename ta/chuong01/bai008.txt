@@ -8,6 +8,7 @@ oh: ồ
 a little: 1 chút
 at school: ở trường
 at home: ở nhà
+very well: rất tốt
 
 i speak: tôi nói ...
 i study: tôi học ...
