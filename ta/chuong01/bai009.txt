@@ -3,5 +3,6 @@ sunny: nắng
 today: hôm nay
 cold: lạnh
 here: ở đây
+hot: nóng
 
 it's + thuộc tính: trời ...
