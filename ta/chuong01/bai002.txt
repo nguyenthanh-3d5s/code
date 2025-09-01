@@ -1,6 +1,6 @@
 china: trung quốc
 japan: nhật
-france: pháp
+france: pháp, tiếng pháp
 paris: thủ đô pháp
 
 i am from: tôi đến từ
