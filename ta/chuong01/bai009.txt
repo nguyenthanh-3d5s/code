@@ -2,5 +2,6 @@ rainy: mưa
 sunny: nắng
 today: hôm nay
 cold: lạnh
+here: ở đây
 
 it's + thuộc tính: trời ...
