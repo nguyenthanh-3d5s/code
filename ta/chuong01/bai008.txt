@@ -5,6 +5,6 @@ chinese: tiếng trung
 
 understand: hiểu
 oh: ồ
-little: chút
+a little: 1 chút
 
 i speak: tôi nói ...
