@@ -2,6 +2,7 @@ english: tiếng anh
 spanish: tiếng tây ban nha
 you: bạn
 chinese: tiếng trung
+french: tiếng pháp
 
 understand: hiểu
 oh: ồ
