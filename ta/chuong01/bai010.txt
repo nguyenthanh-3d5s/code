@@ -1,1 +1,10 @@
+dog: chó
+cat: mèo
+pet: thú cưng
+rabbit: thỏ
+cute: đáng iu
+two: 2
+three: 3
 
+do you have: bạn có
+tên + s + are
