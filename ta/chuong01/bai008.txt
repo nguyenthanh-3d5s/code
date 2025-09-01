@@ -7,7 +7,9 @@ french: tiếng pháp
 understand: hiểu
 oh: ồ
 a little: 1 chút
+some: 1 vài
 at school: ở trường
+in school: trong trường
 at home: ở nhà
 very well: rất tốt
 
