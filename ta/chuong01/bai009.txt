@@ -4,5 +4,8 @@ today: hôm nay
 cold: lạnh
 here: ở đây
 hot: nóng
+cloudy: nhiều mây
+hat: mũ
 
 it's + thuộc tính: trời ...
+it's + thuộc tính + in: trời ... ở ...
