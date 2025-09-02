@@ -6,7 +6,7 @@ shirt: áo
 closed: đóng
 want: muốn
 sale: giảm giá
-on: bật
+on: bật, phía trên
 green: xanh lá
 skirt: chân váy
 white: trắng
