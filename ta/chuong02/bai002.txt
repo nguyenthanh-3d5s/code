@@ -11,6 +11,10 @@ clean: sạch
 bathroom: nhà vệ sinh
 food: thức ăn
 fridge: tủ lạnh
+near: gần
+car: ô tô
+wallet: ví
 
 the: của ko ai cả
 have a seat: mời ngồi
+see you later: hẹn gặp lại
