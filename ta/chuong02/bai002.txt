@@ -8,5 +8,6 @@ beautiful: đẹp
 living room: phòng khách
 couch: sofa
 table: bàn
+clean: sạch
 
 the: của ko ai cả
