@@ -1,1 +1,13 @@
-
+store: cửa hàng
+new: mới
+open: mở
+red: đỏ
+shirt: áo
+closed: đóng
+want: muốn
+sale: giảm giá
+on: bật
+green: xanh lá
+skirt: chân váy
+white: trắng
+like that: giống như vậy
