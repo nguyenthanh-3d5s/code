@@ -8,5 +8,9 @@ living room: phòng khách
 couch: sofa
 table: bàn
 clean: sạch
+bathroom: nhà vệ sinh
+food: thức ăn
+fridge: tủ lạnh
 
 the: của ko ai cả
+have a seat: mời ngồi
