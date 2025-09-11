@@ -3,18 +3,24 @@ they: họ
 we: chúng tôi
 i am: tôi
 
-# tính từ 1
+# vị trí
 on: bật, ở
 in: ở
 the: cái đó
 that: cái kia
+here: ở đây
+today: hôm nay
+at home: ở nhà
+at school: ở trường
 
-# tính từ 2
+# tính từ
 really: thật sự
 also: cũng
 like: thích
 want: muốn
 need: cần
+a little: 1 chút
+study: học
 
 # miêu tả
 good: tốt
@@ -24,6 +30,7 @@ fun: vui vẻ
 cute: dễ thương
 new: mới
 cheap: rẻ
+well: tốt
 
 # cấu trúc
 who is: ai là
@@ -52,6 +59,7 @@ roommate: cùng phòng
 # trường lớp
 class: lớp
 professor: giáo sư
+
 
 # đồ ăn
 cake: bánh ngọt
@@ -110,3 +118,7 @@ two: 2
 # thời tiết
 windy: nhiều gió
 cloudy: nhiều mây
+hot: nóng
+sunny: nắng
+cold: lạnh
+rainy: mưa
