@@ -2,6 +2,7 @@
 they: họ
 we: chúng tôi
 i am: tôi
+you: bạn
 
 # vị trí
 on: bật, ở
@@ -21,6 +22,9 @@ want: muốn
 need: cần
 a little: 1 chút
 study: học
+oh: oh
+understand: hiểu
+speak: nói
 
 # miêu tả
 good: tốt
@@ -31,6 +35,8 @@ cute: dễ thương
 new: mới
 cheap: rẻ
 well: tốt
+great: tuyệt vời
+delicious: ngon
 
 # cấu trúc
 who is: ai là
@@ -49,21 +55,21 @@ how are you: bạn có khỏe không
 come in: mời vào
 i am good: tôi khỏe
 dont worry: đừng lo
+here is your: của bạn đây
+excuse me: xin làm phiền
 
 # bạn bè
+friend: bạn bè
 party: tiệc
 classmate: cùng lớp
 together: cùng nhau
 roommate: cùng phòng
-
-# trường lớp
 class: lớp
-professor: giáo sư
-
 
 # đồ ăn
 cake: bánh ngọt
 food: đồ ăn
+dessert: tráng miệng
 
 # khoảng cách
 near: gần
@@ -103,6 +109,7 @@ closed: đóng cửa
 open: mở cửa
 on sale: giảm giá
 store: cửa hàng
+check: xem, hoá đơn
 
 # động vật
 snake: rắn
@@ -122,3 +129,21 @@ hot: nóng
 sunny: nắng
 cold: lạnh
 rainy: mưa
+
+# quốc gia
+chinese: tiếng trung
+spanish: tiếng tây ban nha
+english: tiếng anh
+
+# nghề nghiệp
+lawyer: luật sư
+nurse: y tá
+teacher: giáo viên
+professor: giáo sư
+chef: đầu bếp
+student: học sinh
+doctor: bác sĩ
+
+# gia đình
+husband: chồng
+wife: vợ
