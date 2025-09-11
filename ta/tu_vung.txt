@@ -1,0 +1,41 @@
+# danh từ
+they: họ
+we: chúng tôi
+i am: tôi
+
+# tính từ
+really: thật sự
+good: tốt
+also: cũng
+
+# nghi vấn
+who is: ai là
+
+# chào hỏi
+nice to meet you: rất vui được gặp
+see you later: hẹn gặp lại
+have a seat: mời ngồi
+
+# bạn bè
+party: tiệc
+fun: vui vẻ
+classmate: cùng lớp
+together: cùng nhau
+roommate: cùng phòng
+
+# trường lớp
+class: lớp
+professor: giáo sư
+
+# đồ ăn
+cake: bánh ngọt
+food: đồ ăn
+
+# khoảng cách
+near: gần
+
+# đồ đạc
+wallet: ví
+
+# phương tiện
+car: ô tô
