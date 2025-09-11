@@ -3,6 +3,8 @@ they: họ
 we: chúng tôi
 i am: tôi
 you: bạn
+your: của bạn
+my: của tôi
 
 # vị trí
 on: bật, ở
@@ -25,6 +27,13 @@ study: học
 oh: oh
 understand: hiểu
 speak: nói
+very: rất
+right: phải, đúng không
+yes: vâng
+too: cũng
+and: và
+with: với
+or: hoặc
 
 # miêu tả
 good: tốt
@@ -37,6 +46,15 @@ cheap: rẻ
 well: tốt
 great: tuyệt vời
 delicious: ngon
+large: lớn
+small: nhỏ
+expensive: đắt
+old: cũ, già
+quiet: yên tĩnh
+famous: nổi tiếng
+busy: bận, đông đúc
+nice: tốt
+big: lớn
 
 # cấu trúc
 who is: ai là
@@ -44,8 +62,15 @@ here is: đây là
 how much is: bao nhiêu
 i have: tôi có
 do you have: bạn có
-it is:
-is it:
+it is: nó là
+is it: nó là
+i'd like a: tôi muốn 1
+where is: ở đâu
+this is: đây là
+is this: đây là
+my name is: tôi tên là
+and you: còn bạn
+i am from: tôi đến từ
 
 # chào hỏi
 nice to meet you: rất vui được gặp
@@ -57,6 +82,12 @@ i am good: tôi khỏe
 dont worry: đừng lo
 here is your: của bạn đây
 excuse me: xin làm phiền
+welcome to: chào mừng đến
+hi: chào
+hello: chào
+goodbye: tạm biệt
+thank you: cảm ơn
+please: làm ơn
 
 # bạn bè
 friend: bạn bè
@@ -70,6 +101,17 @@ class: lớp
 cake: bánh ngọt
 food: đồ ăn
 dessert: tráng miệng
+bowl of soup: tô súp
+salad: sa lát
+burger: bánh mỳ kẹp thịt
+glass of water: ly nước
+pizza: pizza
+sandwich: bánh mỳ kẹp
+water: nước
+sugar: đường
+milk: sữa
+tea: trà
+coffee: cà phê
 
 # khoảng cách
 near: gần
@@ -79,6 +121,10 @@ wallet: ví
 fridge: tủ lạnh
 couch: sô pha
 table: bàn
+phone: điện thoại
+bag: túi, cặp
+ticket: vé
+passport: hộ chiếu
 
 # đồ mặc
 skirt: váy
@@ -86,12 +132,14 @@ shirt: áo
 sweater: áo len
 scarf: khăn quàng
 hat: mũ
+jacket: áo khoác
 
 # phòng
 bathroom: nhà vệ sinh
 kitchen: phòng bếp
 living room: phòng khách
 apartment: căn hộ
+library: thư viện
 
 # phương tiện
 car: ô tô
@@ -110,6 +158,8 @@ open: mở cửa
 on sale: giảm giá
 store: cửa hàng
 check: xem, hoá đơn
+menu: thực đơn
+restaurant: nhà hàng
 
 # động vật
 snake: rắn
@@ -134,6 +184,7 @@ rainy: mưa
 chinese: tiếng trung
 spanish: tiếng tây ban nha
 english: tiếng anh
+france: pháp
 
 # nghề nghiệp
 lawyer: luật sư
@@ -147,3 +198,17 @@ doctor: bác sĩ
 # gia đình
 husband: chồng
 wife: vợ
+brother: anh em trai
+sister: chị em gái
+mom: mẹ
+dad: bố
+
+# thành phố
+park: công viên
+university: đại học
+house: nhà
+street: đường phố
+museum: bảo tàng
+city: thành phố
+customs: hải quan
+gate: cổng
