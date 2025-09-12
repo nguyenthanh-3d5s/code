@@ -2,7 +2,7 @@
 they: họ
 we: chúng tôi
 i am: tôi
-you: bạn
+you are: bạn
 your: của bạn
 my: của tôi
 
