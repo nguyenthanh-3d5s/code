@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-#define sz(a) (int) (a).size()
+#define SZ(a) (int) (a).size()
 
 typedef long long ll;
 typedef vector<int> vi;
@@ -14,7 +14,7 @@ int main() {
     
     sort(v.begin(),v.end());
 
-    for(int i = 0; i < sz(v); i++) {
+    for(int i = 0; i < SZ(v); i++) {
         printf("%d ", v[i]);
     }
 
