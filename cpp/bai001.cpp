@@ -9,7 +9,11 @@ int main() {
     string x;
 
     cin >> a >> b;
+    // while(cin >> x)
+    
+    cin.ignore();
     getline(cin, x);
+
     cout << a << " " << b << " " << x << "\n";
 
     return 0;
