@@ -8,7 +8,8 @@ int main() {
     int a, b;
     string x;
 
-    cin >> a >> b >> x;
+    cin >> a >> b;
+    getline(cin, x);
     cout << a << " " << b << " " << x << "\n";
 
     return 0;
