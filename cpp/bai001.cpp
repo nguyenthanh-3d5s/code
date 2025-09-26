@@ -6,15 +6,15 @@ int main() {
     cin.tie(0);
 
     int a, b;
-    string x;
+    string s;
 
     cin >> a >> b;
     // while(cin >> x)
     
     cin.ignore();
-    getline(cin, x);
+    getline(cin, s);
 
-    cout << a << " " << b << " " << x << "\n";
+    cout << a << " " << b << " " << s << "\n";
 
     return 0;
 }
