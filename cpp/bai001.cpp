@@ -7,7 +7,7 @@ using namespace std;
 #define MP make_pair
 #define REP(i,a,b) for (int i = a; i <= b; i++)
 #define SQ(a) (a) * (a)
-#define sz(a) (int) (a).size()
+#define SZ(a) (int) (a).size()
 
 typedef long long ll;
 typedef vector<int> vi;
