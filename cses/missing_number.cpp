@@ -14,3 +14,24 @@ input:
 output:
 4
 */
+
+#include <bits/stdc++.h>
+using namespace std;
+
+typedef long long ll;
+
+int main() {
+    ll n; cin >> n;
+    ll sum_1 = n * (n + 1) / 2;
+    ll sum_2 = 0;
+    n--;
+
+    while(n--) {
+        int x; cin >> x;
+        sum_2 += x;
+    }
+
+    cout << sum_1 - sum_2;
+
+    return 0;
+}
