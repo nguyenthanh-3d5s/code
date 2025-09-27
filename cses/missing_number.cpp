@@ -21,7 +21,7 @@ using namespace std;
 typedef long long ll;
 
 int main() {
-    ll n; cin >> n;
+    int n; cin >> n;
     ll sum_1 = n * (n + 1) / 2;
     ll sum_2 = 0;
     n--;
