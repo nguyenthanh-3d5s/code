@@ -1,8 +1,8 @@
 /*
 # đề bài:
-bạn được cung cấp tất cả các số từ 1 đến n
-ngoại trừ 1.
-nhiệm vụ của bạn là tìm số còn thiếu
+bạn được cung cấp dãy số từ 1 đến n
+lấy đi 1 số bất kỳ
+nhiệm vụ của bạn là tìm số bị lấy
 
 # biết:
 2 <= n <= 10^5
