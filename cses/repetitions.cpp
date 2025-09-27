@@ -1,7 +1,7 @@
 /*
 # đề bài:
 bạn được cho 1 chuỗi DNA bao gồm: A, C, G, T
-nhiệm vụ tìm chuỗi lặp lại dài nhất
+nhiệm vụ tìm nu lặp lại dài nhất
 và in ra số lượng
 
 # biết:
