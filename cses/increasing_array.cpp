@@ -21,3 +21,32 @@ old: 3 2 5 1 7
 new: 3 3 5 5 7
 => 5
 */
+
+#include <bits/stdc++.h>
+using namespace std;
+
+#define sz(a) (int) (a).size()
+
+typedef long long ll;
+typedef vector<int> vi;
+
+int main() {
+    int n; cin >> n;
+    ll sum = 0;
+    vi arr(n);
+
+    for(int &i : arr) {
+        cin >> i;
+    }
+
+    for(int i = 0; i < n - 1; i++) {
+        if(arr[i] > arr[i + 1]) {
+            sum += arr[i] - arr[i + 1];
+            arr[i + 1] = arr[i];
+        }
+    }
+
+    cout << sum;
+
+    return 0;
+}
