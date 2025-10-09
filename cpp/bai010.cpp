@@ -5,7 +5,7 @@ int to_hop(int, int);
 int giai_thua(int, int);
 
 int main() {
-    cout << to_hop(2, 4);
+    
     return 0;
 }
 
