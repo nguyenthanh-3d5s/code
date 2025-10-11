@@ -21,6 +21,5 @@ int giai_thua(int l, int r) {
     for(int i = l + 1; i <= r; i++) {
         res *= i;
     }
-
     return res;
 }
