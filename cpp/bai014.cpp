@@ -9,7 +9,7 @@ ll luy_thua_bin(ll, ll);
 ll nghich_dao(ll);
 
 int main() {
-    cout << nghich_dao(6);
+    
     return 0;
 }
 
