@@ -14,6 +14,5 @@ bool nguyen_to(int n) {
             return false;
         }
     }
-
     return n > 1;
 }
