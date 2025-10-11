@@ -24,6 +24,5 @@ int phi_ham_euler(int a) {
     if(a > 1) {
         res -= res / a;
     }
-
     return res;
 }
