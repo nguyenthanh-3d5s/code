@@ -22,7 +22,6 @@ bool hoan_hao(int a) {
     if(chinh_phuong(a)) {
         sum -= sqrt(a);
     }
-
     return sum + 1 == a;
 }
 
