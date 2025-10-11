@@ -3,6 +3,7 @@ using namespace std;
 
 bool nguyen_to(int);
 bool chu_so(int);
+bool thuan_nguyen_to(int);
 
 int main() {
     
@@ -32,4 +33,8 @@ bool chu_so(int n) {
         return false;
     }
     return nguyen_to(sum);
+}
+
+bool thuan_nguyen_to(int n) {
+    return chu_so(n) && nguyen_to(n);
 }
