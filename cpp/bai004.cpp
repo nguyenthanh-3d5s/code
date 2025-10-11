@@ -8,12 +8,12 @@ int main() {
     return 0;
 }
 
-bool nguyen_to(int a) {
-    for(int i = 2; i <= sqrt(a); i++) {
-        if(a % i == 0) {
+bool nguyen_to(int n) {
+    for(int i = 2; i <= sqrt(n); i++) {
+        if(n % i == 0) {
             return false;
         }
     }
 
-    return a > 1;
+    return n > 1;
 }
