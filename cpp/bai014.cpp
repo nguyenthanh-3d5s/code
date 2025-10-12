@@ -15,6 +15,8 @@ int main() {
 
 ll nhan_bin(ll a, ll b) {
     ll res = 0;
+    a %= MOD;
+    b %= MOD;
 
     while(b) {
         if(b % 2 != 0) {
@@ -29,6 +31,7 @@ ll nhan_bin(ll a, ll b) {
 
 ll luy_thua_bin(ll a, ll b) {
     ll res = 1;
+    a %= MOD;
 
     while(b) {
         if(b % 2 != 0) {
