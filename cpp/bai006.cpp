@@ -20,5 +20,5 @@ bool hoan_hao(int n) {
             }
         }
     }
-    return sum == n;
+    return sum + 1 == n;
 }
