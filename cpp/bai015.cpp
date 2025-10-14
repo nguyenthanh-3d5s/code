@@ -4,7 +4,7 @@ using namespace std;
 void thua_so_nguyen_to(int);
 
 int main() {
-    thua_so_nguyen_to(120);
+    
     return 0;
 }
 
