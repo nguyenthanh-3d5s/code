@@ -2,7 +2,6 @@
 using namespace std;
 
 bool hoan_hao(int);
-bool chinh_phuong(int);
 
 int main() {
     
@@ -18,14 +17,5 @@ bool hoan_hao(int a) {
             sum += a / i;
         }
     }
-
-    if(chinh_phuong(a)) {
-        sum -= sqrt(a);
-    }
     return sum + 1 == a;
-}
-
-bool chinh_phuong(int a) {
-    int b = sqrt(a);
-    return b * b == a;
 }
