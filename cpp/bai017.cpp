@@ -9,12 +9,12 @@ int main() {
 }
 
 int max_arr(int arr[], int n) {
-    int big = INT_MIN;
+    int res = INT_MIN;
 
     for(int i = 0; i < n; i++) {
-        if(big < arr[i]) {
-            big = arr[i];
+        if(res < arr[i]) {
+            res = arr[i];
         }
     }
-    return big;
+    return res;
 }
