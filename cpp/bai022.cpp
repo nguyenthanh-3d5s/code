@@ -35,7 +35,7 @@ int main() {
         i++;
     }
 
-    while(j < n) {        
+    while(j < m) {        
         cout << arr_02[j] << " ";
         j++;
     }
