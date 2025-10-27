@@ -1,4 +1,4 @@
-#include <bits/stdc++.h>
+nó#include <bits/stdc++.h>
 using namespace std;
 
 #define sz(a) (int) (a).size()
@@ -36,6 +36,8 @@ void xuat(vi &arr) {
 void tron(vi &arr_01, vi &arr_02) {
     int i = 0;
     int j = 0;
+    int n = sz(arr_01);
+    int m = sz(arr_02);
 
     while(i < n && j < m) {
         if(arr_01[i] < arr_02[j]) {
