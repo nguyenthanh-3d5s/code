@@ -16,5 +16,12 @@ int main() {
         cout << i << " ";
     }
 
+    cout << "\n";
+
+    for(int i = 0; i < n; i++) {
+        int j = *(arr.begin() + i);
+        cout << j << " ";
+    }
+
     return 0;
 }
