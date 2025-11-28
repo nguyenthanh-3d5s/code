@@ -1,16 +1,17 @@
-# tam giác CBT
+# CBT
 + nhận thức
 + cảm xúc
++ cơ thể
 + hành vi
 
 # tam giác nhận thức
 + Bản thân: vô dụng, bất lực, tuyệt vọng
-+ Môi trường sống: trải nghiệm thất bại lặp lại
++ Trải nghiệm: thất bại lặp đi lặp lại
 + Tương lai: vô vọng
 
 # trạng thái bất lực
-+ do học được khi đối mặt với những sự kiện không thể kiểm soát
-+ họ cảm thấy rằng dù họ có làm gì hay cố gắng thế nào đi nữa, cũng chẳng có gì thay đổi
++ là do học được khi đối mặt với những sự kiện không thể kiểm soát
++ họ cảm thấy rằng cho dù họ có làm gì hay có cố gắng thế nào đi chăng nữa, cũng sẽ chẳng có gì thay đổi
 + họ từ bỏ việc cố gắng thay đổi và chấp nhận số phận
 + Ngay cả khi có cơ hội để thoát ra, sự bất lực học được này sẽ ngăn cản họ hành động
 + Cảm giác bất lực học được thường bắt nguồn từ thời thơ ấu
@@ -25,7 +26,7 @@ Khái quát hóa quá mức xảy ra khi bạn đặt ra một quy tắc sau m�
 Nó ngăn cản mọi người đặt mình vào những tình huống mà họ nghĩ rằng điều này có thể xảy ra. Ví dụ, nếu bạn đã từng có một bài phát biểu tệ hại, bạn có thể tự nhủ: "Mình luôn làm hỏng bài phát biểu. Mình không bao giờ có thể phát biểu trước công chúng mà không mắc lỗi", và từ chối phát biểu trước công chúng trong tương lai.
 khái quát hóa quá mức thường gặp ở những người mắc chứng rối loạn căng thẳng sau chấn thương (PTSD) khái quát hóa nỗi sợ hãi từ một trải nghiệm đau thương sang các sự kiện trong tương lai.
 
-# Bộ lọc tinh thần
+# Bộ lọc tiêu cực
 Bộ lọc tinh thần trái ngược với khái quát hóa quá mức, nhưng cũng dẫn đến kết quả tiêu cực tương tự. Thay vì lấy một sự kiện nhỏ và khái quát hóa nó một cách không phù hợp, bộ lọc tinh thần lấy một sự kiện nhỏ và tập trung hoàn toàn vào sự kiện đó, loại bỏ mọi thứ khác.
 Ví dụ, Nathan tập trung vào tất cả những điều tiêu cực hoặc gây tổn thương mà đối phương đã nói hoặc làm trong mối quan hệ của họ, nhưng lại lọc ra tất cả những điều tốt đẹp và chu đáo mà đối phương làm. Lối suy nghĩ này góp phần tạo nên cảm giác tiêu cực về đối phương và mối quan hệ của họ.
 Hãy cố gắng chuyển hướng sự tập trung khỏi những điều tiêu cực và tìm kiếm những khía cạnh trung lập hoặc tích cực hơn của một tình huống.
@@ -33,7 +34,7 @@ Hãy cố gắng chuyển hướng sự tập trung khỏi những điều tiêu
 # Giảm giá tích cực
 Việc bỏ qua những điều tích cực là một sự bóp méo nhận thức liên quan đến việc phớt lờ hoặc phủ nhận những điều tốt đẹp đã xảy đến với bạn. Điều này tương tự như quá trình lọc tinh thần, nhưng thay vì chỉ phớt lờ những điều tích cực, bạn đang chủ động từ chối chúng.
 Ví dụ, Joel hoàn thành một dự án và nhận được giải thưởng cho thành quả xuất sắc của mình. Thay vì tự hào về thành tích, anh lại cho rằng đó là do may mắn chứ không hề liên quan gì đến tài năng hay nỗ lực của anh.
-Một cách để vượt qua sự bóp méo nhận thức này là định hình lại cách bạn nhìn nhận sự kiện. Thay vì nhìn nhận kết quả tích cực như một sự may mắn ngẫu nhiên, hãy tập trung nhận ra điểm mạnh, kỹ năng và nỗ lực của bản thân đã góp phần tạo nên kết quả như thế nào.
+Một cách để vượt qua sự bóp méo nhận thức này là định hình lại cách bạn nhìn nhận sự kiện. Thay vì nhìn nhận kết quả tích cực như một sự may mắn ngẫu nhiên, hãy tập trung nhận ra điểm mạnh, kỹ năng và nỗ lực của bản thân đã góp phần tạo nên kết quả như vậy.
 
 # Nhảy đến kết luận
 Có hai cách để đi đến kết luận:
