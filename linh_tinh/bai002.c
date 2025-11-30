@@ -1,13 +1,13 @@
 /*
 Bài 2: Sàng số nguyên tố
-input: 2 <= n < 10^6
+input: 2 <= n <= 10^6
 output: dãy số nguyên tố từ 0 > n
 */
 
 #include<stdio.h>
 #include<math.h>
 #include<stdbool.h>
-#define n_sang (int) 1e6
+#define n_sang (int) 1e6+1
 
 bool sang[n_sang];
 
