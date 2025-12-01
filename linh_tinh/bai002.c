@@ -7,10 +7,10 @@ output: dãy số nguyên tố từ 0 > n
 #include<stdio.h>
 #include<math.h>
 #include<stdbool.h>
+
 #define n_sang (int) 1e6+1
 
 bool sang[n_sang];
-
 void sang_ng_to();
 
 int main() {
