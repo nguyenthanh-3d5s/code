@@ -20,9 +20,9 @@ int main() {
     scanf("%d", &t);
     sang_ng_to();
     while(t--) {
-        int n;
-        scanf("%d", &n);
-        if(sang[n]) {
+        int i;
+        scanf("%d", &i);
+        if(sang[i]) {
             printf("Yes \n");
         }
         else printf("No \n");
