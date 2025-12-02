@@ -1,7 +1,7 @@
 /*
 Bài 3: Sàng số nguyên tố trên đoạn
-input: 1 <= l < r <= 10^9, r - l <= 10^6
-output: dãy số nguyên tố từ l đến r
+input: 1 <= a < b <= 10^9, b - a <= 10^6
+output: dãy số nguyên tố từ a đến b
 */
 
 #include<stdio.h>
@@ -15,24 +15,24 @@ bool sang[n_sang_doan];
 void sang_ng_to_doan(int, int);
 
 int main() {
-    int l, r;
-    scanf("%d %d", &l, &r);
-    sang_ng_to_doan(l, r);
-    for(int i = max(2, l); i <= r; i++) {
-        if(sang[i - l]) {
+    int a, b;
+    scanf("%d %d", &a, &b);
+    sang_ng_to_doan(a, b);
+    for(int i = max(2, a); i <= b; i++) {
+        if(sang[i - a]) {
             printf("%d ", i);
         }
     }
     return 0;
 }
 
-void sang_ng_to_doan(int l, int r) {
-    for(int i = l; i <= r; i++) {
-        sang[i - l] = 1;
+void sang_ng_to_doan(int a, int b) {
+    for(int i = a; i <= b; i++) {
+        sang[i - a] = 1;
     }
-    for(int i = 2; i <= sqrt(r); i++) {
-        for(int j = max(i*i, (l + i - 1) / i*i); j <= r; j += i) {
-            sang[j - l] = 0;
+    for(int i = 2; i <= sqrt(b); i++) {
+        for(int j = max(i*i, (a + i - 1) / i*i); j <= b; j += i) {
+            sang[j - a] = 0;
         }
     }
 }
