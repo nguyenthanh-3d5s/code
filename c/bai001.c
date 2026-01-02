@@ -1,27 +1,33 @@
 #include <stdio.h>
 #include <math.h>
+#include <stdbool.h>
+#define yes printf("Yes\n")
+#define no printf("No\n")
 
-void check_ng_to(int);
+bool check_ng_to(int);
+void out_put(int);
 
 int main() {
     int n;
     scanf("%d", &n);
-    check_ng_to(n);
+    out_put(n);
     return 0;
 }
 
-void check_ng_to(int n) {
+bool check_ng_to(int n) {
     if(n < 2) {
-        printf("No\n");
-        return;
+        return false;
     }
 
     for(int i = 2; i <= sqrt(n); i++) {
         if(n % i == 0) {
-            printf("No\n");
-            return;
+            return false;
         }
     }
 
-    printf("Yes\n");
+    return true;
+}
+
+void out_put(int n) {
+    check_ng_to(n) ? yes : no;
 }
