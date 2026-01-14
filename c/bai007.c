@@ -1,3 +1,5 @@
+// Bài 7: Cặp số nguyên tố có tổng bằng n
+
 #include <stdio.h>
 #include <math.h>
 #include <stdbool.h>
