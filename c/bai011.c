@@ -1,4 +1,4 @@
-// Bài 11: Số T-prime nhiều test
+// Bài 11: Số T-prime với nhiều test
 
 #include <stdio.h>
 #include <stdbool.h>
