@@ -1,3 +1,5 @@
+// Bài 6: Liệt kê n số nguyên tố đầu tiên
+
 #include <stdio.h>
 #include <math.h>
 #include <stdbool.h>
