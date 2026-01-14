@@ -1,3 +1,5 @@
+// Bài 10: Số T-prime
+
 #include <stdio.h>
 #include <stdbool.h>
 #include <math.h>
