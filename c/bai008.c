@@ -1,3 +1,5 @@
+// Bài 8: Số thuần nguyên tố
+
 #include <stdio.h>
 #include <math.h>
 #include <stdbool.h>
