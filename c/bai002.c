@@ -1,3 +1,5 @@
+// Bài 2: Triển khai sàng nguyên tố
+
 #include <stdio.h>
 #include <stdbool.h>
 #include <math.h>
