@@ -1,3 +1,5 @@
+// Bài 1: Kiểm tra số nguyên tố
+
 #include <stdio.h>
 #include <math.h>
 #include <stdbool.h>
