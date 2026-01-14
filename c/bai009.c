@@ -1,3 +1,5 @@
+// Bài 9: Cặp số thỏa mãn a != b và ước chung lớn nhất = 1
+
 #include <stdio.h>
 #include <stdbool.h>
 
