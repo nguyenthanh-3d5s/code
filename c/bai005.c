@@ -1,3 +1,5 @@
+// Bài 5: Kiểm tra số nguyên tố + chữ số nguyên tố
+
 #include <stdio.h>
 #include <math.h>
 #include <stdbool.h>
