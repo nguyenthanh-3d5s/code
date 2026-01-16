@@ -1,4 +1,4 @@
-// Bài 28: tổng chữ số
+// Bài 29: tổng chữ số
 
 #include <stdio.h>
 #include <math.h>
