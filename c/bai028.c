@@ -1,4 +1,4 @@
-// Bài 27: số hoàn hảo
+// Bài 28: số hoàn hảo
 
 #include <stdio.h>
 #include <math.h>
