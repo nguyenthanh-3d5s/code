@@ -1,4 +1,4 @@
-// Bài 24: số chính phương trên đoạn
+// Bài 25: số chính phương trên đoạn
 
 #include <stdio.h>
 #include <math.h>
