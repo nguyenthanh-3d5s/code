@@ -1,4 +1,4 @@
-// Bài 25: đếm ước
+// Bài 26: đếm ước
 
 #include <stdio.h>
 #include <math.h>
