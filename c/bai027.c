@@ -1,4 +1,4 @@
-// Bài 26: số lượng ước là số lẻ
+// Bài 27: số lượng ước là số lẻ
 
 #include <stdio.h>
 #include <math.h>
