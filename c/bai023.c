@@ -1,4 +1,4 @@
-// bài 22_b: số thuận nghịch
+// bài 23: số thuận nghịch
 
 #include <stdio.h>
 #include <math.h>
