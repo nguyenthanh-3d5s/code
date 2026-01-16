@@ -1,4 +1,4 @@
-// Bài 22_a: cho [a, b], tìm x biết x chia hết cho số nguyên tố và chia hết cho bình phương của nguyên tố đó
+// Bài 22: cho [a, b], tìm x biết x chia hết cho số nguyên tố và chia hết cho bình phương của nguyên tố đó
 
 #include <stdio.h>
 #include <math.h>
