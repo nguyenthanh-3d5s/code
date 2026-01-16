@@ -1,4 +1,4 @@
-// bài 23: số chính phương
+// bài 24: số chính phương
 
 #include <stdio.h>
 #include <math.h>
