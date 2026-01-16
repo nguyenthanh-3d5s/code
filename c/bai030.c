@@ -1,4 +1,4 @@
-// Bài 29: fibonacci
+// Bài 30: fibonacci
 
 #include <stdio.h>
 #include <math.h>
