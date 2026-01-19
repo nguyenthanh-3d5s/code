@@ -1,0 +1,83 @@
+i: vòng lặp 1
+j: vòng lặp 2
+k: vòng lặp 3
+len: chiều dài 1
+n: chiều dài 2
+m: chiều dài 3
+t: test
+idx: vị trí
+cnt: bộ đếm
+arr: mảng
+vec: vector
+lst: danh sách
+map: ánh xạ
+dict: từ điển
+set: tập hợp
+val: giá trị
+tmp: giá trị tạm
+res: kết quả
+ans: đáp án
+cur: giá trị hiện tại
+prev: giá trị trước đó
+next: phần tử kế tiếp
+node: nút
+ok: cờ
+flag: cờ
+vis: đã thăm
+used: đã sử dụng
+done: hoàn tất
+check: kiểm tra
+time: thời gian
+start: thời điểm bắt đầu
+end: thời điểm kết thúc
+l: vị trí trái
+r: vị trí phải
+mid: trung điểm
+dp: bảng quy hoạch động
+sum: tổng
+pre: tổng trước (prefix)
+suf: tổng sau (suffix)
+mod: modulo
+maxv: giá trị lớn nhất
+minv: giá trị nhỏ nhất
+low: giới hạn dưới
+high: giới hạn trên
+src: điểm xuất phát
+dst: điểm đích
+u: đỉnh (node u)
+v: đỉnh kề (node v)
+adj: danh sách kề
+par: cha (parent)
+root: gốc (root)
+s: chuỗi (string)
+str: chuỗi văn bản
+ch: ký tự
+sub: chuỗi con
+word: từ
+req: yêu cầu
+res: phản hồi
+user: người dùng
+msg: tin nhắn
+data: dữ liệu
+info: thông tin
+id: định danh
+url: địa chỉ web
+cfg: cấu hình
+env: môi trường
+x: tọa độ
+y: tọa độ
+z: tọa độ
+dx: trục x
+dy: trục y
+r: hàng
+c: cột
+dist: khoảng cách
+gcd: ước chung lớn nhất
+lcm: bội chung nhỏ nhất
+opt: tùy chọn
+mode: chế độ
+key: khóa
+ptr: con trỏ
+buf: bộ đệm
+err: lỗi
+aux: biến phụ trợ
