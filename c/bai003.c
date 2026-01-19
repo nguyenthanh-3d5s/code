@@ -1,43 +1,43 @@
-// Bài 4: Kiểm tra số nguyên tố
-// sử dụng sàng nguyên tố
+// Bài 3: hiển thị số nguyên tố trong đoạn [a, b]
+// sử dụng sàng nguyên tố trên đoạn
 
 #include <stdio.h>
+#include <stdlib.h>
 #include <math.h>
 #include <stdbool.h>
-#define n (int) 1e6
 
-bool arr[n];
-void sang_ng_to();
+void sang_ng_to_doan(bool[], int, int);
+int max(int, int);
 
 int main() {
-    sang_ng_to();
-
-    int t;
-    scanf("%d", &t);
-
-    while(t--) {
-        int i;
-        scanf("%d", &i);
-        if(arr[i]) {
-            printf("YES\n");
-        }
-        else {
-            printf("NO\n");
+    int a, b;
+    scanf("%d %d", &a, &b);
+    
+    bool *arr = (bool*) calloc(b - a + 1, sizeof(bool));
+    sang_ng_to_doan(arr, a, b);
+    
+    for(int i = max(a, 2); i <= b; i++) {
+        if(arr[i - a]) {
+            printf("%d ", i);
         }
     }
+    
+    free(arr);
     return 0;
 }
 
-void sang_ng_to() {
-    for(int i = 2; i < n; i++) {
-        arr[i] = 1;
+void sang_ng_to_doan(bool arr[], int a, int b) {
+    for(int i = a; i <= b; i++) {
+        arr[i - a] = 1;
     }
 
-    for(int i = 2; i <= sqrt(n); i++) {
-        if(arr[i]) {
-            for(int j = i * i; j < n; j += i) {
-                arr[j] = 0;
-            }
+    for(int i = 2; i <= sqrt(b); i++) {
+        for(int j = max(i * i, (a + i - 1) / i * i); j <= b; j += i) {
+            arr[j - a] = 0;
         }
     }
+}
+
+int max(int a, int b) {
+    return (a > b) ? a : b;
 }
