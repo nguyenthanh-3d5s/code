@@ -12,13 +12,16 @@ int max(int, int);
 int main() {
     int a, b;
     scanf("%d %d", &a, &b);
+    
     bool *arr = (bool*) calloc(b - a + 1, sizeof(bool));
     sang_ng_to_doan(arr, a, b);
+    
     for(int i = max(a, 2); i <= b; i++) {
         if(arr[i - a]) {
             printf("%d ", i);
         }
     }
+    
     free(arr);
     return 0;
 }
