@@ -6,7 +6,6 @@
 #define n (int) 1e6
 
 bool arr[n];
-
 void sang_ng_to();
 
 int main() {
