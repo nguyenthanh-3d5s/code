@@ -8,6 +8,7 @@ int check_ng_to(int);
 int main() {
     int n;
     scanf("%d", &n);
+    
     if(check_ng_to(n)) {
         printf("YES\n");
     }
