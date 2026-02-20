@@ -28,6 +28,7 @@ void SAFE(char note[]) {
 }
 
 void GET(char note[], int a) {
+    CLEAN();
     fgets(note, a, stdin);
     SAFE(note);
 }
