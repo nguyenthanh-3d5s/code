@@ -27,11 +27,12 @@ int UPPER_BOUND(int arr[], int x, int n) {
         }
         else if(arr[m] < x) {
             l = m + 1;
+            //pos = l;
         }
         else {
             r = m - 1;
         }
     }
 
-    return pos;
+    return (pos == n) ? -1 : pos;
 }
