@@ -27,6 +27,7 @@ int LOWER_BOUND(int arr[], int x, int n) {
         }
         else if(arr[m] > x) {
             r = m - 1;
+            //pos = r;
         }
         else {
             l = m + 1;
