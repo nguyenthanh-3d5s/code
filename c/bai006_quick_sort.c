@@ -42,9 +42,16 @@ int PARTITION(int arr[], int l, int r) {
 }
 
 void QUICK_SORT(int arr[], int l, int r) {
-    if(l < r) {
+    while(l < r) {
         int m = PARTITION(arr, l, r);
-        QUICK_SORT(arr, l, m - 1);
-        QUICK_SORT(arr, m + 1, r);
+        
+        if(m - l < r - m) {
+            QUICK_SORT(arr, l, m - 1);
+            l = m + 1;
+        }
+        else {
+            QUICK_SORT(arr, m + 1, r);
+            r = m - 1;
+        }
     }
 }
