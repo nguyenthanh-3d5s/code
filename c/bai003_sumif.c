@@ -5,8 +5,8 @@
 
 typedef struct {char note[20]; int a;} table;
 
-void CLEAN();
-void SAFE(char []);
+void CLEAN_BUFFER();
+void SAFE_BUFFER(char []);
 void GET(char [], int);
 int SUMIF(table [], char [], int);
 
@@ -22,13 +22,13 @@ int main() {
     return 0;
 }
 
-void CLEAN() {
+void CLEAN_BUFFER() {
     while(getchar() != '\n');
 }
 
-void SAFE(char note[]) {
+void SAFE_BUFFER(char note[]) {
     if(note[SIZE(note) - 1] != '\n') {
-        CLEAN();
+        CLEAN_BUFFER();
     }
     else {
         note[SIZE(note) - 1] = '\0';
@@ -36,9 +36,9 @@ void SAFE(char note[]) {
 }
 
 void GET(char note[], int n) {
-    CLEAN();
+    CLEAN_BUFFER();
     fgets(note, n, stdin);
-    SAFE(note);
+    SAFE_BUFFER(note);
 }
 
 int SUMIF(table cell[], char note[], int n) {
