@@ -74,7 +74,7 @@ int UPPER_BOUND(table cell[], int x, int n) {
         }
     }
 
-    return (pos == n) ? -1 : pos;
+    return (pos == n) ? pos-1 : pos;
 }
 
 void VLOOKUP(table cell_01[], table cell_02[], int n, int m) {
