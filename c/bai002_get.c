@@ -3,8 +3,8 @@
 
 #define SIZE(a) (int) strlen(a)
 
-void CLEAN();
-void SAFE(char []);
+void CLEAN_BUFFER();
+void SAFE_BUFFER(char []);
 void GET(char [], int);
 
 int main() {
@@ -14,13 +14,13 @@ int main() {
     return 0;
 }
 
-void CLEAN() {
+void CLEAN_BUFFER() {
     while(getchar() != '\n');
 }
 
-void SAFE(char note[]) {
+void SAFE_BUFFER(char note[]) {
     if(note[SIZE(note) - 1] != '\n') {
-        CLEAN();
+        CLEAN_BUFFER();
     }
     else {
         note[SIZE(note) - 1] = '\0';
@@ -28,7 +28,7 @@ void SAFE(char note[]) {
 }
 
 void GET(char note[], int a) {
-    CLEAN();
+    CLEAN_BUFFER();
     fgets(note, a, stdin);
-    SAFE(note);
+    SAFE_BUFFER(note);
 }
