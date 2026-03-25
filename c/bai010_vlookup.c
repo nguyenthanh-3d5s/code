@@ -14,7 +14,7 @@ void VLOOKUP(table [], table [], int, int);
 int main() {
     int n, m;
     scanf("%d %d", &n, &m);
-    table cell_01[n], cell_02[n];
+    table cell_01[n], cell_02[m];
 
     for(int i = 0; i < n; i++) {
         scanf("%d", &cell_01[i].a);
