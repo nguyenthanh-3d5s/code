@@ -21,22 +21,22 @@ int SEARCH(int arr[], int n, int x) {
     while(l <= r) {
         int m1 = l + (r - l) / 3;
         int m2 = r - (r - l) / 3;
-
-        if(x == arr[m1]) {
+        
+        if(x < arr[m1]) {
+            r = m1 - 1;
+        }
+        else if(x == arr[m1]) {
             pos = m1;
             l = m1 + 1;
-        }
-        else if(x == arr[m2]) {
-            pos = m2;
-            l = m2 + 1;
-        }
-        else if(x < arr[m1]) {
-            r = m1 - 1;
         }
         else if(x < arr[m2]) {
             l = m1 + 1;
             r = m2 - 1;
             //pos = l;
+        }
+        else if(x == arr[m2]) {
+            pos = m2;
+            l = m2 + 1;
         }
         else {
             l = m2 + 1;
