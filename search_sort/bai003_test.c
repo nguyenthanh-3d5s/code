@@ -26,21 +26,21 @@ int SEARCH(int arr[], int n, int x) {
             pos = m1;
             l = m1 + 1;
         }
-
-        if(x == arr[m2]) {
+        else if(x == arr[m2]) {
             pos = m2;
             l = m2 + 1;
         }
-
-        if(x < arr[m1]) {
+        else if(x < arr[m1]) {
             r = m1 - 1;
         }
         else if(x < arr[m2]) {
             l = m1 + 1;
             r = m2 - 1;
+            //pos = l;
         }
         else {
             l = m2 + 1;
+            //pos = l;
         }
     }
 
