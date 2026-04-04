@@ -32,7 +32,7 @@ void PART(int arr[], int *low, int *high) {
     int mid = l + (r - l) / 2;
     int val = arr[mid];
 
-    while(m < r) {
+    while(m <= r) {
         if(arr[m] == val) {
             m++;
         }
