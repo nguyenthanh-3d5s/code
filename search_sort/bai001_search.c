@@ -34,5 +34,5 @@ int SEARCH(int arr[], int n, int x) {
         }
     }
 
-    return (pos == n) ? pos - 1 : pos;
+    return (pos == n) ? r : pos;
 }
