@@ -14,7 +14,7 @@ Nhiệm vụ của bạn là mô phỏng quá trình thực thi của thuật to
 Dòng nhập duy nhất chứa một số nguyên n
 
 Đầu ra:
-In ra một dòng chứa tất cả các giá trị của n trong suốt quá trình thực hiện thuật toán.
+In ra một dòng chứa tất cả các giá trị của n trong suốt quá trình thực hiện thuật toán
 
 Ràng buộc:
 1 ≤ n ≤ 10^6
