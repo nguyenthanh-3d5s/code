@@ -36,22 +36,23 @@ int main() {
     int n;
     scanf("%d", &n);
  
-    int arr[n + 1];
+    int arr[n];
     arr[0] = 0;
-    arr[n] = n + 1;
- 
+
     for(int i = 1; i < n; i++) {
         scanf("%d", &arr[i]);
     }
     
     SORT(arr, 1, n - 1);
     
-    for(int i = 1; i <= n; i++) {
+    for(int i = 1; i < n; i++) {
         if(arr[i] - arr[i - 1] == 2) {
             printf("%d", arr[i] - 1);
             break;
         }
     }
+
+    if(arr[n - 1] != n) printf("%d", n);
     return 0;
 }
  
