@@ -25,3 +25,82 @@ Ràng buộc:
 Đầu ra:
 4
 */
+
+#include <stdio.h>
+ 
+void SWAP(int *, int *);
+void PART(int arr[], int *low, int *high);
+void SORT(int arr[], int l, int r);
+ 
+int main() {
+    int n;
+    scanf("%d", &n);
+ 
+    int arr[n + 1];
+    arr[0] = 0;
+    arr[n] = n + 1;
+ 
+    for(int i = 1; i < n; i++) {
+        scanf("%d", &arr[i]);
+    }
+    
+    SORT(arr, 1, n - 1);
+    
+    for(int i = 1; i <= n; i++) {
+        if(arr[i] - arr[i - 1] == 2) {
+            printf("%d", arr[i] - 1);
+            break;
+        }
+    }
+    return 0;
+}
+ 
+void SWAP(int *a, int *b) {
+    int temp = *a;
+    *a = *b;
+    *b = temp;
+}
+ 
+void PART(int arr[], int *low, int *high) {
+    int l = *low;
+    int r = *high;
+    int m = *low;
+ 
+    int mid = l + (r - l) / 2;
+    int val = arr[mid];
+ 
+    while(m <= r) {
+        if(arr[m] == val) {
+            m++;
+        }
+        else if(arr[m] < val) {
+            SWAP(&arr[l], &arr[m]);
+            l++;
+            m++;
+        }
+        else {
+            SWAP(&arr[m], &arr[r]);
+            r--;
+        }
+    }
+ 
+    *low = l;
+    *high = r;
+}
+ 
+void SORT(int arr[], int l, int r) {
+    while(l < r) {
+        int low = l;
+        int high = r;
+        PART(arr, &low, &high);
+ 
+        if(low - l < r - high) {
+            SORT(arr, l, low - 1);
+            l = high + 1;
+        }
+        else {
+            SORT(arr, high + 1, r);
+            r = low - 1;
+        }
+    }
+}
