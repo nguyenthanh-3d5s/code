@@ -27,3 +27,22 @@ Ràng buộc:
 Đầu ra:
 3 10 5 16 8 4 2 1
 */
+
+#include <stdio.h>
+#define ll long long
+
+int main() {
+    ll n;
+    scanf("%lld", &n);
+    while(n != 1) {
+        printf("%lld ", n);
+        if(n % 2 == 0) {
+            n /= 2;
+        }
+        else {
+            n = n * 3 + 1;
+        }
+    }
+    printf("%lld", n);
+    return 0;
+}
