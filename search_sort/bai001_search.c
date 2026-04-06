@@ -6,10 +6,12 @@ int LOWER_BOUND(int [], int, int);
 int main() {
     int n, x;
     scanf("%d %d", &n, &x);
+    
     int arr[n];
     for(int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
+    
     printf("%d", UPPER_BOUND(arr, n, x));
     return 0;
 }
