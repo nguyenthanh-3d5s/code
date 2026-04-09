@@ -27,10 +27,11 @@ Ràng buộc:
 */
 
 #include <stdio.h>
- 
+
 void SWAP(int *, int *);
 void PART(int arr[], int *low, int *high);
 void SORT(int arr[], int l, int r);
+int UPPER_BOUND(int [], int);
  
 int main() {
     int n;
@@ -45,16 +46,7 @@ int main() {
     
     SORT(arr, 1, n - 1);
     
-    for(int i = 1; i < n; i++) {
-        if(arr[i] - arr[i - 1] == 2) {
-            printf("%d", arr[i] - 1);
-            break;
-        }
-    }
-
-    if(arr[n - 1] != n) {
-		printf("%d", n);
-	}
+    printf("%d", UPPER_BOUND(arr, n));
     return 0;
 }
  
@@ -106,4 +98,22 @@ void SORT(int arr[], int l, int r) {
             r = low - 1;
         }
     }
+}
+
+int UPPER_BOUND(int arr[], int n) {
+    int l = 0;
+    int r = n - 1;
+
+    while(l <= r) {
+        int m = l + (r - l) / 2;
+
+        if(arr[m] == m) {
+            l = m + 1;
+        }
+        else {
+            r = m - 1;
+        }
+    }
+
+    return l;
 }
