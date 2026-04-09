@@ -23,3 +23,32 @@ ATTCGGGA
 Đầu ra:
 3
 */
+
+#include <stdio.h>
+#include <string.h>
+#define SIZE(a) (int) strlen(a)
+
+int main() {
+    int n = 1e6;
+    char note[n];
+    scanf("%s", note);
+
+    int max = 1;
+    int c = 1;
+
+    for(int i = 1; i < SIZE(note); i++) {
+        if(note[i] != note[i - 1]) {
+            c = 1;
+        }
+        else {
+            c++;
+
+            if(max < c) {
+                max = c;
+            }
+        }
+    }
+
+    printf("%d", max);
+    return 0;
+}
