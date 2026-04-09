@@ -34,17 +34,17 @@ int main() {
     scanf("%s", note);
 
     int max = 1;
-    int c = 1;
+    int cnt = 1;
 
     for(int i = 1; i < SIZE(note); i++) {
         if(note[i] != note[i - 1]) {
-            c = 1;
+            cnt = 1;
         }
         else {
-            c++;
+            cnt++;
 
-            if(max < c) {
-                max = c;
+            if(max < cnt) {
+                max = cnt;
             }
         }
     }
