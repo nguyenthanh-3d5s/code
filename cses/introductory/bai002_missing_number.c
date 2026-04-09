@@ -32,7 +32,7 @@ void SWAP(int *, int *);
 void PART(int arr[], int *low, int *high);
 void SORT(int arr[], int l, int r);
 int UPPER_BOUND(int [], int);
- 
+
 int main() {
     int n;
     scanf("%d", &n);
@@ -49,13 +49,13 @@ int main() {
     printf("%d", UPPER_BOUND(arr, n));
     return 0;
 }
- 
+
 void SWAP(int *a, int *b) {
     int temp = *a;
     *a = *b;
     *b = temp;
 }
- 
+
 void PART(int arr[], int *low, int *high) {
     int l = *low;
     int r = *high;
@@ -82,7 +82,7 @@ void PART(int arr[], int *low, int *high) {
     *low = l;
     *high = r;
 }
- 
+
 void SORT(int arr[], int l, int r) {
     while(l < r) {
         int low = l;
