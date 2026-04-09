@@ -7,10 +7,10 @@ Nhiệm vụ của bạn là tìm đoạn lặp dài nhất trong chuỗi
 Đó là một xâu con có độ dài lớn nhất chỉ chứa một loại ký tự
 
 Đầu vào:
-Dòng nhập duy nhất chứa một xâu có n ký tự.
+Dòng nhập duy nhất chứa một xâu có n ký tự
 
 Đầu ra:
-In ra một số nguyên: độ dài của đoạn lặp dài nhất.
+In ra một số nguyên: độ dài của đoạn lặp dài nhất
 
 Ràng buộc:
 1 ≤ n ≤ 10^6
