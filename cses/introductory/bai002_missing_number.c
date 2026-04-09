@@ -52,7 +52,9 @@ int main() {
         }
     }
 
-    if(arr[n - 1] != n) printf("%d", n);
+    if(arr[n - 1] != n) {
+		printf("%d", n);
+	}
     return 0;
 }
  
