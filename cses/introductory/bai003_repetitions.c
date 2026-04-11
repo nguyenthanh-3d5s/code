@@ -27,10 +27,11 @@ ATTCGGGA
 #include <stdio.h>
 #include <string.h>
 #define SIZE(a) (int) strlen(a)
+#define n (int) 1e6
+
+char note[n];
 
 int main() {
-    int n = 1e6;
-    char note[n];
     scanf("%s", note);
 
     int max = 1;
