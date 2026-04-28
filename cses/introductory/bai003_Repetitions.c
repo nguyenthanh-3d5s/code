@@ -22,6 +22,6 @@ int main() {
         }
     }
 
-    printf("%d", max);
+    printf("%d", (max < cnt) ? cnt : max);
     return 0;
 }
