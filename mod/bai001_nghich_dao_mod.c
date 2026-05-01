@@ -1,5 +1,3 @@
-%%writefile test.c
-
 #include <stdio.h>
 #define MOD (int) (1e9+7)
 
