@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <string.h>
 #define n (int) 1e6
-#define SIZE(a) (int) strlen(a)
 
 int main() {
     char note[n];
@@ -10,7 +9,7 @@ int main() {
     int max = 1;
     int cnt = 1;
 
-    for(int i = 1; i < SIZE(note); i++) {
+    for(int i = 1, len = strlen(note); i < len; i++) {
         if(note[i - 1] != note[i]) {
             if(max < cnt) {
                 max = cnt;
