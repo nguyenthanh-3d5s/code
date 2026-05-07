@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <math.h>
 #define MASK(i) (1 << (i))
 #define GRAY(i) ((i) ^ ((i) >> 1))
 #define m 16
@@ -32,7 +31,7 @@ int main() {
 
 int DISK(int i) {
     int n = GRAY(i) ^ GRAY(i - 1);
-    int cnt = 0;
+    int cnt = -1;
 
     while(n) {
         cnt++;
