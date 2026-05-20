@@ -1,18 +1,19 @@
 #include <stdio.h>
 #include <string.h>
+#define n 100
 
 void SWAP(char *, char *);
 void PART(char [], int *, int *);
 void SORT(char [], int, int);
 
 int main() {
-    char str[100];
-    scanf("%s", str);
-    int n = strlen(str);
+    char note[n];
+    scanf("%s", note);
+    int len = strlen(note);
 
-    SORT(str, 0, n - 1);
+    SORT(note, 0, len - 1);
 
-    printf("%s\n", str);
+    printf("%s\n", note);
 
     return 0;
 }
@@ -23,25 +24,25 @@ void SWAP(char *a, char *b) {
     *b = temp;
 }
 
-void PART(char arr[], int *low, int *high) {
+void PART(char note[], int *low, int *high) {
     int l = *low;
     int r = *high;
     int m = *low;
 
     int mid = l + (r - l) / 2;
-    char val = arr[mid];
+    char val = note[mid];
 
     while(m <= r) {
-        if(arr[m] == val) {
+        if(note[m] == val) {
             m++;
         }
-        else if(arr[m] < val) {
-            SWAP(&arr[l], &arr[m]);
+        else if(note[m] < val) {
+            SWAP(&note[l], &note[m]);
             l++;
             m++;
         }
         else {
-            SWAP(&arr[m], &arr[r]);
+            SWAP(&note[m], &note[r]);
             r--;
         }
     }
@@ -50,18 +51,18 @@ void PART(char arr[], int *low, int *high) {
     *high = r;
 }
 
-void SORT(char arr[], int l, int r) {
+void SORT(char note[], int l, int r) {
     while(l < r) {
         int low = l;
         int high = r;
-        PART(arr, &low, &high);
+        PART(note, &low, &high);
 
         if(low - l < r - high) {
-            SORT(arr, l, low - 1);
+            SORT(note, l, low - 1);
             l = high + 1;
         }
         else {
-            SORT(arr, high + 1, r);
+            SORT(note, high + 1, r);
             r = low - 1;
         }
     }
