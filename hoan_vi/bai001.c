@@ -13,7 +13,7 @@ int main() {
 
     NEXT_PER(note, len);
 
-    printf("%s", note);
+    printf("%s\n", note);
 
     return 0;
 }
