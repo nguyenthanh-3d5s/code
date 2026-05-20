@@ -1,40 +1,60 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include <string.h>
+#define n 100
 
-void SWAP(int *, int *);
-void REVERSER(int [], int, int);
-void NEXT_PER(int [], int);
+void SWAP(char *, char *);
+void REVERSER(char [], int, int);
+void NEXT_PER(char [], int);
 
 int main() {
-    int n;
-    scanf("%d", &n);
+    char note[n];
+    scanf("%s", note);
+    int len = strlen(note);
 
-    int arr[n];
+    NEXT_PER(note, len);
 
-    for(int i = 0; i < n; i++) {
-        scanf("%d", &arr[i]);
-    }
-
-    NEXT_PER(arr, n);
-
-    for (int i = 0; i < n; i++) {
-        printf("%d ", arr[i]);
-    }
-    printf("\n");
+    printf("%s", note);
 
     return 0;
 }
 
-void SWAP(int *a, int *b) {
-    int temp = *a;
+void SWAP(char *a, char *b) {
+    char temp = *a;
     *a = *b;
     *b = temp;
 }
 
-void REVERSER(int arr[], int l, int r) {
+void REVERSER(char note[], int l, int r) {
     while (l < r) {
-        SWAP(&arr[l], &arr[r]);
+        SWAP(&note[l], &note[r]);
         l++;
+        r--;
+    }
+}
+
+void NEXT_PER(char note[], int len) {
+    int pos = -1;
+    for (int i = len - 2; i >= 0; i--) {
+        if (note[i] < note[i + 1]) {
+            pos = i;
+            break;
+        }
+    }
+
+    if (pos == -1) {
+        REVERSER(note, 0, len - 1);
+        return;
+    }
+
+    for (int i = len - 1; i > pos; i--) {
+        if (note[i] > note[pos]) {
+            SWAP(&note[i], &note[pos]);
+            break;
+        }
+    }
+
+    REVERSER(note, pos + 1, len - 1);
+}        l++;
         r--;
     }
 }
