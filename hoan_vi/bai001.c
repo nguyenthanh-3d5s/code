@@ -32,7 +32,7 @@ void REVERSER(char note[], int l, int r) {
     }
 }
 
-void NEXT_PER(int note[], int len) {
+void NEXT_PER(char note[], int len) {
     int pos = -1;
     for (int i = len - 2; i >= 0; i--) {
         if (note[i] < note[i + 1]) {
