@@ -94,7 +94,7 @@ int UPPER_BOUND(int arr[], int n, int x) {
         }
         else if(arr[m] < x) {
             l = m + 1;
-            //pos = l;
+            pos = l;
         }
         else {
             r = m - 1;
