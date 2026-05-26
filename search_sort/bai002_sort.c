@@ -61,7 +61,7 @@ void SORT(int arr[], int l, int r) {
         int high = r;
         PART(arr, &low, &high);
 
-        SORT(arr, l, low);
-        SORT(arr, high, r);
+        SORT(arr, l, low - 1);
+        SORT(arr, high + 1, r);
     }
 }
