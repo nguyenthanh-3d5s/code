@@ -20,7 +20,7 @@ int main() {
     int j = n - 1;
 
     while(i <= j) {
-        if(arr[i] + arr[j] <= k) {
+        if(1LL + arr[i] + arr[j] <= k) {
             i++;
         }
         j--;
