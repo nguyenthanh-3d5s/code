@@ -56,18 +56,12 @@ void PART(int arr[], int *low, int *high) {
 }
 
 void SORT(int arr[], int l, int r) {
-    while(l < r) {
+    if(l < r) {
         int low = l;
         int high = r;
         PART(arr, &low, &high);
 
-        if(low - l < r - high) {
-            SORT(arr, l, low - 1);
-            l = high + 1;
-        }
-        else {
-            SORT(arr, high + 1, r);
-            r = low - 1;
-        }
+        SORT(arr, l, low);
+        SORT(arr, high, r);
     }
 }
