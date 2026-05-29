@@ -42,8 +42,7 @@ void PART(int arr[], int *low, int *high) {
     int r = *high;
     int m = *low;
 
-    int mid = l + (r - l) / 2;
-    int val = arr[mid];
+    int val = (arr[l] + arr[r]) / 2;
 
     while(m <= r) {
         if(arr[m] == val) {
