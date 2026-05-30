@@ -37,8 +37,7 @@ void PART(char note[], int *low, int *high) {
     int r = *high;
     int m = *low;
 
-    int mid = l + (r - l) / 2;
-    char val = note[mid];
+    char val = note[l] + (note[r] - note[l]) / 2;
 
     while(m <= r) {
         if(note[m] == val) {
