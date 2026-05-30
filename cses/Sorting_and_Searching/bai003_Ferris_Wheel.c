@@ -43,7 +43,7 @@ void PART(int arr[], int *low, int *high) {
     int m = *low;
 
     int mid = l + (r - l) / 2;
-    int val = (arr[mid] + arr[l] + arr[r]) / 3;
+    int val = (1LL * arr[mid] + arr[l] + arr[r]) / 3;
 
     while(m <= r) {
         if(arr[m] == val) {
