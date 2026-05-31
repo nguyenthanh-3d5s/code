@@ -34,19 +34,10 @@ int main() {
 
     PUSH_BACK(&test, 1, 2);
     PUSH_BACK(&test, 3, 4);
+    PUSH_BACK(&test, 2, 3);
 
-    if(FIND(&test, 1) == FIND(&test, 2)) {
-        printf("YES\n");
-    }
-    else {
-        printf("NO\n");
-    }
-
-    if(FIND(&test, 1) == FIND(&test, 3)) {
-        printf("YES\n");
-    }
-    else {
-        printf("NO\n");
+    for(int i = 0; i < test.size; i++) {
+        printf("%d ", test.arr[i]);
     }
 
     return 0;
