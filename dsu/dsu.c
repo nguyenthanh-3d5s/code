@@ -3,6 +3,7 @@
 
 typedef struct {
     int arr[N];
+    int rank[N];
     int size;
 } DSU;
 
@@ -11,6 +12,7 @@ void CREATE(DSU *test, int n) {
 
     for(int i = 0; i < n; i++) {
         test->arr[i] = i;
+        test->rank[i] = 0;
     }
 }
 
@@ -19,26 +21,47 @@ int FIND(DSU *test, int i) {
         return i;
     }
 
-    return FIND(test, test->arr[i]);
+    test->arr[i] = FIND(test, test->arr[i]);
+
+    return test->arr[i];
 }
 
-void PUSH_BACK(DSU *test, int i, int j) {
+void UNION(DSU *test, int i, int j) {
     int irep = FIND(test, i);
     int jrep = FIND(test, j);
-    test->arr[irep] = jrep;
+
+    if(irep == jrep) {
+        return;
+    }
+
+    if(test->rank[irep] == test->rank[jrep]) {
+        test->arr[jrep] = irep;
+        test->rank[irep]++;
+    }
+    else if(test->rank[irep] < test->rank[jrep]) {
+        test->arr[irep] = jrep;
+    }
+    else {
+        test->arr[jrep] = irep;
+    }
 }
 
 int main() {
     DSU test;
     CREATE(&test, 5);
 
-    PUSH_BACK(&test, 1, 2);
-    PUSH_BACK(&test, 3, 4);
-    PUSH_BACK(&test, 2, 3);
+    UNION(&test, 3, 4);
+    UNION(&test, 2, 3);
+    UNION(&test, 1, 2);
 
     for(int i = 0; i < test.size; i++) {
         printf("%d ", test.arr[i]);
     }
 
+    printf("\n");
+
+    for(int i = 0; i < test.size; i++) {
+        printf("%d ", test.rank[i]);
+    }
     return 0;
 }
