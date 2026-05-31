@@ -22,7 +22,7 @@ int FIND(DSU *test, int i) {
     return FIND(test, test->arr[i]);
 }
 
-void PUSH(DSU *test, int i, int j) {
+void PUSH_BACK(DSU *test, int i, int j) {
     int irep = FIND(test, i);
     int jrep = FIND(test, j);
     test->arr[irep] = jrep;
@@ -32,8 +32,8 @@ int main() {
     DSU test;
     CREATE(&test, 5);
 
-    PUSH(&test, 1, 2);
-    PUSH(&test, 3, 4);
+    PUSH_BACK(&test, 1, 2);
+    PUSH_BACK(&test, 3, 4);
 
     if(FIND(&test, 1) == FIND(&test, 2)) {
         printf("YES\n");
