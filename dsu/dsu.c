@@ -35,8 +35,8 @@ void UNION(DSU *test, int i, int j) {
     }
 
     if(test->rank[irep] == test->rank[jrep]) {
-        test->arr[jrep] = irep;
-        test->rank[irep]++;
+        test->arr[irep] = jrep;
+        test->rank[jrep]++;
     }
     else if(test->rank[irep] < test->rank[jrep]) {
         test->arr[irep] = jrep;
