@@ -63,5 +63,6 @@ int main() {
     for(int i = 0; i < test.size; i++) {
         printf("%d ", test.rank[i]);
     }
+    
     return 0;
 }
