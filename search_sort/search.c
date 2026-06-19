@@ -32,14 +32,13 @@ int UPPER_BOUND(int arr[], int n, int x) {
         }
         else if(arr[m] < x) {
             l = m + 1;
-            //pos = l;
         }
         else {
             r = m - 1;
         }
     }
 
-    return (pos == n) ? r : pos;
+    return pos;
 }
 
 int LOWER_BOUND(int arr[], int n, int x) {
@@ -56,7 +55,6 @@ int LOWER_BOUND(int arr[], int n, int x) {
         }
         else if(arr[m] > x) {
             r = m - 1;
-            //pos = r;
         }
         else {
             l = m + 1;
