@@ -1,36 +1,46 @@
 #include <stdio.h>
+#include <stdbool.h>
 
-void SWAP(int *, int *);
-void PART(int [], int [], int *, int *);
-void SORT(int [], int [], int, int);
+typedef struct {int a; int b;} ii;
+typedef int (*func_cmp)(ii, ii);
+
+int cmp(ii x, ii y) {
+    if (x.a != y.a) {
+        return (x.a < y.a) ? -1 : 1;
+    }
+    return 0;
+}
+
+void SWAP(ii *, ii *);
+void PART(ii [], int *, int *, func_cmp);
+void SORT(ii [], int, int, func_cmp);
 
 int main() {
     int n;
     scanf("%d", &n);
 
     n += n;
-    
-    int arr[n];
-    int line[n];
-    
+
+    ii arr[n];
+
     for(int i = 0; i < n; i++) {
-        scanf("%d", &arr[i]);
+        scanf("%d", &arr[i].a);
 
         if(i % 2 == 0) {
-            line[i] = 1;
+            arr[i].b = 1;
         }
         else {
-            line[i] = -1;
+            arr[i].b = -1;
         }
     }
-    
-    SORT(arr, line, 0, n - 1);
+
+    SORT(arr, 0, n - 1, cmp);
 
     int cnt = 0;
     int max = 0;
-    
+
     for(int i = 0; i < n; i++) {
-        cnt += line[i];
+        cnt += arr[i].b;
 
         if(max < cnt) {
             max = cnt;
@@ -42,32 +52,32 @@ int main() {
     return 0;
 }
 
-void SWAP(int *a, int *b) {
-    int temp = *a;
-    *a = *b;
-    *b = temp;
+void SWAP(ii *x, ii *y) {
+    ii temp = *x;
+    *x = *y;
+    *y = temp;
 }
 
-void PART(int arr[], int line[], int *low, int *high) {
+void PART(ii arr[], int *low, int *high, func_cmp compare) {
     int l = *low;
     int r = *high;
     int m = *low;
 
-    int val = arr[l] + (arr[r] - arr[l]) / 2;
+    ii val = arr[l + (r - l) / 2];
 
     while(m <= r) {
-        if(arr[m] == val) {
+        int cmp_result = compare(arr[m], val);
+
+        if(cmp_result == 0) {
             m++;
         }
-        else if(arr[m] < val) {
+        else if(cmp_result < 0) {
             SWAP(&arr[l], &arr[m]);
-            SWAP(&line[l], &line[m]);
             l++;
             m++;
         }
         else {
             SWAP(&arr[m], &arr[r]);
-            SWAP(&line[m], &line[r]);
             r--;
         }
     }
@@ -76,18 +86,18 @@ void PART(int arr[], int line[], int *low, int *high) {
     *high = r;
 }
 
-void SORT(int arr[], int line[], int l, int r) {
+void SORT(ii arr[], int l, int r, func_cmp compare) {
     while(l < r) {
         int low = l;
         int high = r;
-        PART(arr, line, &low, &high);
+        PART(arr, &low, &high, compare);
 
         if(low - l < r - high) {
-            SORT(arr, line, l, low - 1);
+            SORT(arr, l, low - 1, compare);
             l = high + 1;
         }
         else {
-            SORT(arr, line, high + 1, r);
+            SORT(arr, high + 1, r, compare);
             r = low - 1;
         }
     }
