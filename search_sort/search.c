@@ -2,7 +2,7 @@
 
 int UPPER_BOUND(int [], int, int);
 int LOWER_BOUND(int [], int, int);
-int SEARCH(int [], int, int);
+int VLOOKDOWN(int [], int, int);
 
 int main() {
     int n, x;
@@ -64,7 +64,7 @@ int LOWER_BOUND(int arr[], int n, int x) {
     return pos;
 }
 
-int SEARCH(int arr[], int n, int x) {
+int VLOOKDOWN(int arr[], int n, int x) {
     int pos = -1;
     int l = 0;
     int r = n - 1;
