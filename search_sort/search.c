@@ -3,6 +3,7 @@
 int UPPER_BOUND(int [], int, int);
 int LOWER_BOUND(int [], int, int);
 int VLOOKDOWN(int [], int, int);
+int VLOOKUP(int [], int, int);
 
 int main() {
     int n, x;
@@ -83,3 +84,24 @@ int VLOOKDOWN(int arr[], int n, int x) {
 
     return pos;
 }
+
+int VLOOKUP(int arr[], int n, int x) {
+    int pos = -1;
+    int l = 0;
+    int r = n - 1;
+
+    while(l <= r) {
+        int m = l + (r - l) / 2;
+
+        if(arr[m] >= x) {
+            pos = m;
+            r = m - 1;
+        }
+        else {
+            l = m + 1;
+        }
+    }
+
+    return pos;
+}
+
