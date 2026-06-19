@@ -5,7 +5,7 @@ void UNION(int [], int);
 void SWAP(int *, int *);
 void PART(int [],  int *, int *);
 void SORT(int [], int, int);
-int SEARCH(int [], int, int);
+int VLOOKUP(int [], int, int);
 
 int main() {
     int n, m;
@@ -32,7 +32,7 @@ int main() {
     SORT(ticket, 1, n - 1);
 
     for(int i = 0; i < m; i++) {
-        int pos = SEARCH(ticket, n, custom[i]);
+        int pos = VLOOKUP(ticket, n, custom[i]);
         pos = FIND(dsu, pos);
 
         if(pos != 0) {
@@ -107,7 +107,7 @@ void SORT(int arr[], int l, int r) {
     }
 }
 
-int SEARCH(int arr[], int n, int x) {
+int VLOOKUP(int arr[], int n, int x) {
     int pos = -1;
     int l = 0;
     int r = n - 1;
