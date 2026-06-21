@@ -17,7 +17,8 @@ int cmp(ii x, ii y) {
 void SWAP(ii *, ii *);
 void PART(ii [], int *, int *, func_cmp);
 void SORT(ii [], int, int, func_cmp);
-int SEARCH(ii [], int, int);
+int UPPER_BOUND(ii [], int, int);
+int VLOOKDOWN(ii [], int, int);
 
 int main() {
     int n;
@@ -31,13 +32,27 @@ int main() {
 
     SORT(arr, 0, n - 1, cmp);
 
-    for(int i = 0; i < n; i++) {
-        printf("(%d %d) ", arr[i].a, arr[i].b);
+    int i = 0;
+    int cnt = 1;
+
+    while(1) {
+        int j = VLOOKDOWN(arr, n, arr[i].b + 1);
+
+        if(j != -1) {
+            j = UPPER_BOUND(arr, n, arr[j].b);
+
+            if(arr[j].a >= arr[i].b) {
+                cnt++;
+            }
+        }
+        else {
+            break;
+        }
+
+        i = j;
     }
 
-    printf("\n");
-
-    printf("%d", SEARCH(arr, n, 0));
+    //printf("%d", cnt);
 
     return 0;
 }
@@ -93,7 +108,30 @@ void SORT(ii arr[], int l, int r, func_cmp compare) {
     }
 }
 
-int SEARCH(ii arr[], int n, int x) {
+int UPPER_BOUND(ii arr[], int n, int x) {
+    int pos = -1;
+    int l = 0;
+    int r = n - 1;
+
+    while(l <= r) {
+        int m = l + (r - l) / 2;
+
+        if(arr[m].b == x) {
+            pos = m;
+            l = m + 1;
+        }
+        else if(arr[m].b < x) {
+            l = m + 1;
+        }
+        else {
+            r = m - 1;
+        }
+    }
+
+    return pos;
+}
+
+int VLOOKDOWN(ii arr[], int n, int x) {
     int pos = -1;
     int l = 0;
     int r = n - 1;
