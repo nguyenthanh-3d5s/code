@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-int UPPER_BOUND(int [], int, int);
-int LOWER_BOUND(int [], int, int);
-int VLOOKUP(int [], int, int);
-int VLOOKDOWN(int [], int, int);
+int UPPER_BOUND(int [], int, int, int);
+int LOWER_BOUND(int [], int, int, int);
+int VLOOKUP(int [], int, int, int);
+int VLOOKDOWN(int [], int, int, int);
 
 int main() {
     int n, x;
@@ -15,14 +15,12 @@ int main() {
         scanf("%d", &arr[i]);
     }
     
-    printf("%d", UPPER_BOUND(arr, n, x));
+    printf("%d", UPPER_BOUND(arr, 0, n - 1, x));
     return 0;
 }
 
-int UPPER_BOUND(int arr[], int n, int x) {
+int UPPER_BOUND(int arr[], int l, int r, int x) {
     int pos = -1;
-    int l = 0;
-    int r = n - 1;
 
     while(l <= r) {
         int m = l + (r - l) / 2;
@@ -42,10 +40,8 @@ int UPPER_BOUND(int arr[], int n, int x) {
     return pos;
 }
 
-int LOWER_BOUND(int arr[], int n, int x) {
+int LOWER_BOUND(int arr[], int l, int r, int x) {
     int pos = -1;
-    int l = 0;
-    int r = n - 1;
 
     while(l <= r) {
         int m = l + (r - l) / 2;
@@ -65,10 +61,8 @@ int LOWER_BOUND(int arr[], int n, int x) {
     return pos;
 }
 
-int VLOOKUP(int arr[], int n, int x) {
+int VLOOKUP(int arr[], int l, int r, int x) {
     int pos = -1;
-    int l = 0;
-    int r = n - 1;
 
     while(l <= r) {
         int m = l + (r - l) / 2;
@@ -85,10 +79,8 @@ int VLOOKUP(int arr[], int n, int x) {
     return pos;
 }
 
-int VLOOKDOWN(int arr[], int n, int x) {
+int VLOOKDOWN(int arr[], int l, int r, int x) {
     int pos = -1;
-    int l = 0;
-    int r = n - 1;
 
     while(l <= r) {
         int m = l + (r - l) / 2;
