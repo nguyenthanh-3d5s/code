@@ -6,7 +6,9 @@ char *nestedLoop(int);
 
 int main() {
     char *res = nestedLoop(2);
+    
     printf("%s", res);
+    
     free(res);
     return 0;
 }
