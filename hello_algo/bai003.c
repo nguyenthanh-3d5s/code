@@ -7,12 +7,10 @@ char *nestedLoop(char [], int, int);
 int main() {
     int n = 2;
     int size = n * n * 26 + 1;
-    char *res = (char *)malloc(size * sizeof(char));
+    char res[size];
     res[0] = '\0';
     
     printf("%s", nestedLoop(res, n, size));
-    
-    free(res);
     return 0;
 }
 
