@@ -13,7 +13,7 @@ int forLoopRecur(int n) {
     int res = 0;
     
     for(int i = n; i > 0; i--) {
-        stack[1 + top++] = i;
+        stack[++top] = i;
     }
     
     while(top >= 0) {
