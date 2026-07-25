@@ -20,8 +20,7 @@ char *nestedLoop(char res[], int n, int size) {
     for(int i = 1; i <= n; i++) {
         for(int j = 1; j <= n; j++) {
             char tmp[26];
-            snprintf(tmp, sizeof(tmp), "(%d, %d)
-            ", i, j);
+            snprintf(tmp, sizeof(tmp), "(%d, %d) ", i, j);
             strncat(res, tmp, size - strlen(res) - 1);
         }
     }
