@@ -10,6 +10,7 @@ int main() {
     res[0] = '\0';
     
     printf("%s", nestedLoop(res, n, size));
+    
     return 0;
 }
 
