@@ -1,6 +1,7 @@
 #include <stdio.h>
 #define MOD (int) (1e9+7)
 #define MAX (int) (2e5+5)
+#define MON(a, b) ((a + b) % MOD)
 
 int main() {
     int n;
@@ -15,10 +16,10 @@ int main() {
     arr[5] = 16;
     
     for(int i = 6; i <= n; i++) {
-        int a = (arr[i - 1] + arr[i - 2]) % MOD;
-        int b = (arr[i - 3] + arr[i - 4]) % MOD;
-        int c = (arr[i - 5] + arr[i - 6]) % MOD;
-        arr[i] = (a + b + c) % MOD;
+        int a = MON(arr[i - 1], arr[i - 2]);
+        int b = MON(arr[i - 3], arr[i - 4]);
+        int c = MON(arr[i - 5], arr[i - 6]);
+        arr[i] = MON(MON(a, b), c);
     }
     
     printf("%d", arr[n]);
