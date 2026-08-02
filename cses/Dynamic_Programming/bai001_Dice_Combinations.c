@@ -1,6 +1,6 @@
 #include <stdio.h>
 #define MOD (int) (1e9+7)
-#define MAX (int) (2e5+5)
+#define MAX (int) (1e6)
 #define MON(a, b) ((a + b) % MOD)
 
 int main() {
