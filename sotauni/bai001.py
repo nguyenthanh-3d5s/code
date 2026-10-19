@@ -54,12 +54,14 @@ def fun_c(numbers):
     return answer
 
 def solution(dice):
-    counter = fun_​a​(​dice​)
-    answer = fun_​b​(​dice​)
-    answer += fun_​c​(​dice​)
+    counter = fun_a(dice)
+    answer = fun_b(dice)
+    answer += fun_c(counter)
     return answer
 
 def _main():
     _data = list(map(int, input().split()))
     _res = solution(_data)
     print(_res)
+
+_main()
