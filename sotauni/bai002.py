@@ -26,3 +26,24 @@ cost	base	return
 Giải thích ví dụ
 Ví dụ trên tương tự như đã mô tả trước đó.
 '''
+def solution(cost, base):
+    answer = 0
+    count = 0
+    for i in cost:
+        if base > i:
+            answer += 1
+            count = 0
+        elif base <= i:
+            count += 1
+            if count == 4:
+                answer += 1
+                count = 0
+    return answer
+
+def _main():
+    _data = list(map(int, input().split(", ")))
+    _a0 = int(input())
+    _res = solution(_data, _a0)
+    print(_res)
+
+_main()
