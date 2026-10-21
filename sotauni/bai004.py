@@ -25,3 +25,46 @@ Giải thích ví dụ
 
 Vì vậy, đội 2 thắng với 12 điểm trong trò chơi bóng rổ.
 '''
+def fun_a(arr):
+    num = arr[0]
+    for i in arr:
+        if num > i:
+            num = i
+    return num
+
+def fun_b(arr):
+    num = arr[0]
+    for i in arr:
+        if num < i:
+            num = i
+    return num
+
+def fun_c(first, second):
+    ret = [0,0]
+    if first > second:
+        ret[0] = 1
+        ret[1] = first
+
+    else:
+        ret[0] = 2
+        ret[1] = second
+
+    return ret
+
+def solution(first, second):
+    max1 = fun_a(first)
+    max2 = fun_a(second)
+    min1 = fun_b(first)
+    min2 = fun_b(second)
+    answer = fun_c(max1 + min1, max2 + min2)
+
+    return answer
+
+def _main():
+    _data_0 = list(map(int, input().split(", ")))
+    _data_1 = list(map(int, input().split(", ")))
+    #_a0 = int(input())
+    _res = solution(_data_0, _data_1)
+    print(_res)
+
+_main()
