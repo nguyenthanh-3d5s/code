@@ -53,9 +53,9 @@ def solution(subway_times, current_time):
     return answer
 
 def _main():
-    _data_0 = input().replace('"', '').split(", ")
+    _data0 = input().replace('"', '').split(", ")
     _a0 = input().replace('"', '')
-    _res = solution(_data_0, _a0)
+    _res = solution(_data0, _a0)
     print(_res)
 
 _main()
