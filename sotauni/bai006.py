@@ -39,7 +39,7 @@ def solution(arr1, arr2):
 def _main():
     _data0 = list(map(int, input().split(", ")))
     _data1 = list(map(int, input().split(", ")))
-    #_a0 = input()
+    #_a0 = int(input())
     _res = solution(_data0, _data1)
     print(_res)
 
