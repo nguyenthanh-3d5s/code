@@ -37,10 +37,10 @@ def solution(arr1, arr2):
     return answer
 
 def _main():
-    _data_0 = list(map(int, input().split(", ")))
-    _data_1 = list(map(int, input().split(", ")))
+    _data0 = list(map(int, input().split(", ")))
+    _data1 = list(map(int, input().split(", ")))
     #_a0 = input()
-    _res = solution(_data_0, _data_1)
+    _res = solution(_data0, _data1)
     print(_res)
 
 _main()
