@@ -48,7 +48,7 @@ def solution(used):
     return answer
 
 def _main():
-    #_data = list(map(int, input().split(", ")))
+    #_data0 = list(map(int, input().split(", ")))
     _a0 = int(input())
     _res = solution(_a0)
     print(_res)
