@@ -60,8 +60,9 @@ def solution(dice):
     return answer
 
 def _main():
-    _data = list(map(int, input().split(", ")))
-    _res = solution(_data)
+    _data0 = list(map(int, input().split(", ")))
+    #_a0 = int(input())
+    _res = solution(_data0)
     print(_res)
 
 _main()
