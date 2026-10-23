@@ -26,3 +26,19 @@ Như đã mô tả ở trên.
 Ví dụ #2
 Các cặp chiều dài và chiều rộng có thể là (1, 15), (3, 5) tổng cộng có 2 cặp.
 '''
+from math import *
+
+def solution(n):
+    answer = 0
+    for i in range(1, isqrt(n) + 1):
+        if n % i == 0:
+            answer += 1
+    return answer
+
+def _main():
+    #_data0 = list(map(int, input().split(", ")))
+    _a0 = int(input())
+    _res = solution(_a0)
+    print(_res)
+
+_main()
