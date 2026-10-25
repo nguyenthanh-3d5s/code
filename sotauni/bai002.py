@@ -39,11 +39,3 @@ def solution(cost, base):
                 answer += 1
                 count = 0
     return answer
-
-def _main():
-    _data0 = list(map(int, input().split(", ")))
-    _a0 = int(input())
-    _res = solution(_data0, _a0)
-    print(_res)
-
-_main()
