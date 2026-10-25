@@ -34,11 +34,3 @@ def solution(n):
         if n % i == 0:
             answer += 1
     return answer
-
-def _main():
-    #_data0 = list(map(int, input().split(", ")))
-    _a0 = int(input())
-    _res = solution(_a0)
-    print(_res)
-
-_main()
