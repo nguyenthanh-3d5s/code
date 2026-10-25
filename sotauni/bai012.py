@@ -32,11 +32,3 @@ def solution(password):
         if first_check == second_check and (first_check == 1 or first_check == -1):
             return False
     return True
-
-def _main():
-    #_data0 = list(map(int, input().split(", ")))
-    _a0 = input().replace('"', '')
-    _res = solution(_a0)
-    print(_res)
-
-_main()
