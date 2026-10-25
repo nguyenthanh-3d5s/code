@@ -35,12 +35,3 @@ def solution(stones, distances):
         if i >= _max:
             answer += 1
     return answer
-
-def _main():
-    _data0 = list(map(int, input().split(", ")))
-    _data1 = list(map(int, input().split(", ")))
-    #_a0 = int(input())
-    _res = solution(_data0, _data1)
-    print(_res)
-
-_main()
