@@ -58,11 +58,3 @@ def solution(dice):
     answer = fun_b(dice)
     answer += fun_c(counter)
     return answer
-
-def _main():
-    _data0 = list(map(int, input().split(", ")))
-    #_a0 = int(input())
-    _res = solution(_data0)
-    print(_res)
-
-_main()
