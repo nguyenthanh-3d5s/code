@@ -51,11 +51,3 @@ def solution(subway_times, current_time):
     if answer == INF:
         return -1
     return answer
-
-def _main():
-    _data0 = input().replace('"', '').split(", ")
-    _a0 = input().replace('"', '')
-    _res = solution(_data0, _a0)
-    print(_res)
-
-_main()
