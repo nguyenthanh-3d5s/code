@@ -49,13 +49,3 @@ def solution(text, word, n):
             make_possible += 1
     
     return make_possible == n
-
-def _main():
-    #_data0 = list(map(int, input().split(", ")))
-    _a0 = input().replace('"', '')
-    _a1 = input().replace('"', '')
-    _a2 = int(input())
-    _res = solution(_a0, _a1, _a2)
-    print(_res)
-
-_main()
