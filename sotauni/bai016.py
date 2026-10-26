@@ -1,5 +1,4 @@
 '''
-# time limit
 Tính số lần thay đổi của các dãy số
 Mô tả bài toán
 Bài toán này yêu cầu bạn điền vào các chỗ trống trong mã sao cho thỏa mãn yêu cầu đã cho.
