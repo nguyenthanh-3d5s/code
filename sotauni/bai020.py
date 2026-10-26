@@ -34,3 +34,15 @@ Giống như mô tả ở trên.
 Ví dụ 2
 Để đến bậc thứ 117, bạn cần lặp lại quá trình bước lên 5 bậc 23 lần và sau đó bước lên 2 bậc, tổng số lần di chuyển là 24.
 '''
+def solution(N):
+    dp = [0] * 1000001
+
+    dp[1] = 1
+    dp[2] = 1
+    dp[3] = 2
+    dp[4] = 2
+
+    for i in range(5, N + 1):
+        dp[i] = min(dp[i - 1], dp[i - 2], dp[i - 5]) + 1
+
+    return dp[N]
