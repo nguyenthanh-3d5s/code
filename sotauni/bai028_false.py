@@ -23,3 +23,21 @@ Ví dụ	Đầu vào 1	Đầu vào 2	Đầu ra
 Ví dụ 1: Nó trả về giá trị lớn nhất của 5 chữ số sau khi loại bỏ 2 chữ số từ một số 7 chữ số.
 Ví dụ 2: Nó trả về giá trị lớn nhất của 3 chữ số sau khi loại bỏ 3 chữ số từ một số 6 chữ số.
 '''
+def solution(in_data, number):
+    in_len=len(in_data)
+    maxValue = 0
+    answer=[0] * (in_len - number)    
+    numberIndex = -1
+    l=0
+    for i in range(0, in_len - number) :  
+        maxValue = '0'
+        for j in range(numberIndex + 1, i + number + 1) :  
+            if maxValue < in_data[j] : 
+                numberIndex = j
+                maxValue = in_data[j]            
+        answer[l] = maxValue
+        l = l+1
+        
+    answer = ''.join(s for s in answer) 
+    
+    return  answer
