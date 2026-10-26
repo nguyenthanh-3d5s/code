@@ -1,4 +1,4 @@
-''' 
+'''
 Bài toán leo cầu thang
 Mô tả bài toán
 Bài toán này yêu cầu tìm và sửa một dòng mã bị lỗi để hoàn thành hàm solution.
