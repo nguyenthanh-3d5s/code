@@ -53,8 +53,8 @@ def solution(N,  M,  K,  sequence):
         if (sequence[a][0] == sequence[b][1] and sequence[b][1] == sequence[c][2]):
             return count
         a = (a + 1) % N
-        b = (b + 1) % M  
-        c = (c + 1) % K  
+        b = (b + 1) % M
+        c = (c + 1) % K
         count += 1
 
     return -1
